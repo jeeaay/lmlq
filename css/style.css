@@ -1,15 +1,16 @@
 
 /*header*/
-header .globe{padding: 0 18px 0 12px}
+header .globe{padding: 0 18px 0 12px;}
 header .search{display: inline-block;height: 49px;line-height: 49px;width: 82px;background-color: #ef011c;color: #fff}
 @media (min-width: 760px){
 	header .search{height: 40px;line-height: 40px;width: 82px;}
 }
+
 /*nav*/
 .logo img{float: left;}
 nav .icon-navicon{margin-top: 20px;}
 nav .line{padding-top: 10px;}
-@media (max-width:294px ){
+@media (max-width:296px ){
 	.logo .img2{display: none;}	
 }
 @media (max-width:450px ){
