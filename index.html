@@ -16,13 +16,15 @@
 	<link rel="stylesheet" href="./css/index.css">
 	<script src="./js/jquery.js"></script>
 	<script src="./js/pintuer.js"></script>
+	<!--[if lt IE 8]>
 	<script src="./js/respond.js"></script>
+	<![endif]-->
 	<!-- <link rel="prefetch" href="预加载的图片" /> -->
 </head>
-<body>
+<body id="index">
 	<header class="text-right container hidden-l">
 		<a href=""><i class="icon icon-phone padding-right" aria-hidden="true"></i>4006551888</a>
-		<a class="globe" href=""><i class="icon icon-globe padding-right" aria-hidden="true"></i>全球黎明</a>
+		<a class="globe" href=""><i class="icon icon-globe margin-right rotate-hover" aria-hidden="true"></i>全球黎明</a>
 		<a class="search text-center" href=""><i class="icon icon-search padding-right" aria-hidden="true"></i>搜索</a>
 	</header>
 	<nav class="container">
@@ -30,10 +32,10 @@
 			<div class="xs4 xm5 xb4">
 				<button class="button icon-navicon float-right" data-target="#top-nav">
 				</button>
-				<a class="logo">
-					<img class="img-responsive" src="img/index/logo.jpg">
-					<img class="img-responsive img2" src="img/index/logo2.jpg">
-					<img class="img3" src="img/index/logo3.jpg">
+				<a class="logo ">
+					<img class="img-responsive" src="img/logo.jpg">
+					<img class="img-responsive img2" src="img/logo2.jpg">
+					<img class="img3" src="img/logo3.jpg">
 				</a>
 			</div>
 			<div class="show-l clearfix"></div>
@@ -49,9 +51,9 @@
 					<li>
 						<a href="javascript:;">产品中心</a>
 						<ul class="drop-menu">
-                            <li><a href="tools/index.html">破碎设备</a></li>
-                            <li><a href="tools/index.html">磨粉设备</a></li>
-                            <li><a href="tools/index.html">制沙设备</a></li>
+                            <li><a href="javascript:alert('敬请期待...');">破碎设备</a></li>
+                            <li><a href="javascript:alert('敬请期待...');">磨粉设备</a></li>
+                            <li><a href="javascript:alert('敬请期待...');">制沙设备</a></li>
                         </ul>
 					</li>
 					<li><a>解决方案</a> </li>
@@ -68,5 +70,50 @@
 			<li class="item"><div style="background-image: url(img/index/banner.jpg)"></div></li>
 		</ul>
 	</div>
+	<article class="container">
+		<section class="a">
+			<h2 class="text-center">以品质打造品牌 以服务提升信誉</h2>
+			<p class="profile">黎明重工专注于矿山、建筑、能源等国家重点基础设施建设工程所需大型装备的研发制造，并提供专业技术解决方案和配套产品，赢得了全球130多个国家客户的高度赞誉。我们致力于开发智能解决方案，从而提高客户的盈利能力，实现业务的可持续发展。</p>
+			<ul class="list-unstyle line-big">
+				<li class="xl6 xm3">
+					<a href="">
+						<img class="img-responsive" src="img/index/a1.jpg">
+						<div class="text-white">
+							<h3>建筑破碎</h3>
+							<p>创新突破效率至上</p>
+						</div>
+					</a>
+				</li>
+				<li  class="xl6 xm3">
+					<a href="">
+						<img class="img-responsive" src="img/index/a2.jpg">
+						<div class="text-white">
+							<h3>矿山破碎</h3>
+							<p>专业铸就行业巨擘</p>
+						</div>
+					</a>
+				</li>
+				<li  class="xl6 xm3">
+					<a href="">
+						<img class="img-responsive" src="img/index/a3.jpg">
+						<div class="text-white">
+							<h3>工业制粉</h3>
+							<p>品质领先再铸经典</p>
+						</div>
+					</a>
+				</li>
+				<li  class="xl6 xm3">
+					<a href="">
+						<img class="img-responsive" src="img/index/a4.jpg">
+						<div class="text-white">
+							<h3>绿色建材</h3>
+							<p>不惧挑战纵横驰骋</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</section>
+	</article>
+
 </body>
 </html>

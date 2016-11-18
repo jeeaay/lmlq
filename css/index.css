@@ -1,0 +1,19 @@
+/*banner*/
+.banner{border-top: 1px solid #d7d7d7;margin-top: 14px}
+.banner .carousel div{height: 420px;background-position: center;background-position: no-repeat}
+
+#index .a .text-white{position: absolute;top: 40px;text-align: center;width: 100%;left: 0;}
+/* #index .a li h3,#index .a li p{transition: all 0.3s ease;} */
+/* #index .a li{transition: all .3s ease;} */
+#index .a img{width: 100%}
+#index .a li{padding-bottom: 20px}
+#index article h2{font-weight: bold;margin: 20px 0 12px}
+@media (min-width: 760px){
+	#index article h2{font-size: 1.714em;margin: 30px 0 22px;}
+	#index article .profile{font-size: 18px;line-height: 30px;margin-bottom: 22px}
+	#index .a .text-white h3{font-size: 1.714em;margin-bottom: 12px}
+	#index .a .text-white p{font-size: 1.14286em;}
+	#index .a .text-white{top: 50px}
+
+}
+  

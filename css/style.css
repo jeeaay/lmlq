@@ -1,4 +1,8 @@
-
+/*common*/
+@media (min-width: 1200px){
+	.line-big {margin-left: -15px;margin-right: -15px;}
+	.line-big .x1, .line-big .x2, .line-big .x3, .line-big .x4, .line-big .x5, .line-big .x6, .line-big .x7, .line-big .x8, .line-big .x9, .line-big .x10, .line-big .x11, .line-big .x12, .line-big .xl1, .line-big .xl2, .line-big .xl3, .line-big .xl4, .line-big .xl5, .line-big .xl6, .line-big .xl7, .line-big .xl8, .line-big .xl9, .line-big .xl10, .line-big .xl11, .line-big .xl12, .line-big .xs1, .line-big .xs2, .line-big .xs3, .line-big .xs4, .line-big .xs5, .line-big .xs6, .line-big .xs7, .line-big .xs8, .line-big .xs9, .line-big .xs10, .line-big .xs11, .line-big .xs12, .line-big .xm1, .line-big .xm2, .line-big .xm3, .line-big .xm4, .line-big .xm5, .line-big .xm6, .line-big .xm7, .line-big .xm8, .line-big .xm9, .line-big .xm10, .line-big .xm11, .line-big .xm12, .line-big .xb1, .line-big .xb2, .line-big .xb3, .line-big .xb4, .line-big .xb5, .line-big .xb6, .line-big .xb7, .line-big .xb8, .line-big .xb9, .line-big .xb10, .line-big .xb11, .line-big .xb12 {position: relative;min-height: 1px;padding-right: 15px;padding-left: 15px;}
+}
 /*header*/
 header .globe{padding: 0 18px 0 12px;}
 header .search{display: inline-block;height: 49px;line-height: 49px;width: 82px;background-color: #ef011c;color: #fff}
@@ -15,6 +19,9 @@ nav .line{padding-top: 10px;}
 }
 @media (max-width:450px ){
 	.logo .img3{display: none;}	
+}
+@media (max-width:759px ){
+	nav .nav-inline li{width: 50%;float: left;text-align: center;}
 }
 @media (max-width:999px) and (min-width: 760px){
 	.logo .img3{display: none;}	
@@ -33,6 +40,3 @@ nav .line{padding-top: 10px;}
 	nav .nav-inline{margin: 39px -21px 0;font-size: 18px;}
 	nav .nav-inline li a{padding: 5px 21px;}
 }
-/*banner*/
-.banner{border-top: 1px solid #d7d7d7;margin-top: 14px}
-.banner .carousel div{height: 420px;background-position: center;}
