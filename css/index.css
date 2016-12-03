@@ -16,15 +16,25 @@
 /*section b*/
 #index .b{margin-top: 15px;position: relative;}
 #index .b .b-bg{background-position: center;background-repeat: no-repeat;-webkit-transition: all 0.3s ease;transition: all 0.3s ease;height: 554px;position: relative;}
-#index .b .b-bg-r{position: absolute;top: 0;right: 0;height: 100%;width: 100%;background-color: rgba(35,45,51,.95);padding: 34px}
+#index .b .b-bg-r{position: absolute;top: 0;right: 0;height: 100%;width: 100%;background-color: rgba(35,45,51,.95);padding:30px 15px}
 #index .b .b-bg-r h3{color: #da251d;font-size:2.4286em;font-weight: bold;}
 #index .b .b-bg-r h4{font-size:1.57143em;padding:4px 0 10px;border-bottom: 3px solid #da251d;margin-bottom: 14px;font-weight: bold;}
 #index .b .b-bg-r p{line-height: 28px}
+#index .b-b{position: absolute;left: 15px;bottom: 5%;color: #7f7f7f;font-size: 34px;}
+#index .b-b i{margin:0 7px;cursor: pointer;}
 @media (min-width: 450px){
-	#index .b .b-bg-r{padding-top: 92px}
+	#index .b .b-bg-r{padding: 92px 34px 34px}
+	#index .b-b{left: 34px}
 }
 @media (min-width: 760px){
 	#index .b .b-bg-r p{font-size: 16px;}
 	#index .b .b-bg-r{width: 48.5%;max-width: 436px}
+	#index .b-b{left: 409px}
+}
+@media (min-width: 1000px){
+	#index .b-b{left: 578px}
+}
+@media (min-width: 1200px){
+	#index .b-b{left: 778px}
 }
 /*section c*/
