@@ -58,20 +58,22 @@
 #index .d .new-title{width: 80%;}
 #index .d .d2 a,#index .d .d3 a{display: block;}
 @media (min-width: 450px){
-	#index .d .new-title{width: 84%}
+	#index .d .new-title{width: 83%}
 }
 @media (min-width: 760px){
-	#index .d .new-title{width: 678px}
+	#index .d .new-title{width: 660px}
 }
 @media (min-width: 1000px){
-	#index .d .new-title{width: 260px}
+	#index .d .new-title{width: 250px}
 	#index .d .d2 a,#index .d .d3 a{padding:0 25px;}
 	#index .d .d2{border-width: 0 1px 0 1px;border-style:solid;border-color:  #e7e7e7}
 }
 @media (min-width: 1200px){
-	#index .d .new-title{width: 320px}
+	#index .d .new-title{width: 310px}
 }
 
 
 #index .d .d2 a:hover,#index .d .d2 a:focus,#index .d .d3 a:hover,#index .d .d3 a:focus{color: #333;}
 #index .d .d2 p,#index .d .d3 p{font-size: 18px;line-height: 30px}
+/*section e*/
+#index .e{margin-top: 12px}
