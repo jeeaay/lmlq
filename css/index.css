@@ -48,14 +48,14 @@
 /*section d*/
 #index .d{background-color: #f5f5f5}
 #index .d .line-big{padding-top: 20px}
-#index .d .d1 h4{padding:0 25px 0 18px;font-size: 16px;font-weight: 100;line-height: 28px;color:#666 }
+#index .d .d1 h4{padding:4px 25px 0 18px;font-size: 16px;font-weight: 100;line-height: 28px;color:#666 }
 #index .d .d1 li{margin-bottom: 25px;}
 #index .d .d1 h2{margin-bottom: 28px}
 #index .d .date{background-color:#81878f;padding: 4px 6px;margin-top: 4px}
 #index .d .date p{margin: 0;color: #fff;line-height: 1}
 #index .d .date .m{font-size: 10px;padding-top: 6px}
 #index .d .date .text-center{font-size: 28px;}
-#index .d .new-title{width: 80%;}
+#index .d .new-title{width: 76%;}
 #index .d .d2 a,#index .d .d3 a{display: block;}
 @media (min-width: 450px){
 	#index .d .new-title{width: 83%}
