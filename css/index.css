@@ -41,14 +41,14 @@
 #index .c ul{padding-top: 15px}
 #index .c a:hover,#index .c a:focus{color: #333;}
 #index .c h4{padding: 15px 0 4px}
-#index .c h3{padding: 4px 0 6px}
+#index .c h3{padding: 4px 0 6px;font-weight: bold;}
 @media (min-width: 760px){
 	#index .c p{padding-right: 15px}
 }
 /*section d*/
 #index .d{background-color: #f5f5f5}
 #index .d .line-big{padding-top: 20px}
-#index .d .d1 h4{padding:4px 25px 0 18px;font-size: 16px;font-weight: 100;line-height: 28px;color:#666 }
+#index .d .d1 h4{padding:2px 25px 0 18px;font-size: 16px;font-weight: 100;line-height: 28px;color:#666 }
 #index .d .d1 li{margin-bottom: 25px;}
 #index .d .d1 h2{margin-bottom: 28px}
 #index .d .date{background-color:#81878f;padding: 4px 6px;margin-top: 4px}
@@ -57,6 +57,7 @@
 #index .d .date .text-center{font-size: 28px;}
 #index .d .new-title{width: 76%;}
 #index .d .d2 a,#index .d .d3 a{display: block;}
+#index .d .d2 img,#index .d .d3 img{margin-bottom: 7px}
 @media (min-width: 450px){
 	#index .d .new-title{width: 83%}
 }
@@ -71,9 +72,24 @@
 @media (min-width: 1200px){
 	#index .d .new-title{width: 310px}
 }
-
-
 #index .d .d2 a:hover,#index .d .d2 a:focus,#index .d .d3 a:hover,#index .d .d3 a:focus{color: #333;}
 #index .d .d2 p,#index .d .d3 p{font-size: 18px;line-height: 30px}
+
 /*section e*/
-#index .e{margin-top: 12px}
+#index .e{margin-top: 12px;background: url(../img/index/e-bg.jpg) no-repeat center;height: 172px}
+#index .e ul{padding: 20px}
+#index .e li{float: left;width: 20%;font-size: 16px;}
+#index .e-ico{display: block;overflow: hidden;vertical-align: middle;background: url(../img/index/e-icon.png) no-repeat;width: 98px;height: 98px;margin: 0 auto 7px;transition:all 0.5s ease;-moz-transition:all 0.5s ease; -ms-transition:all 0.5s ease; -o-transition:all 0.5s ease; -webkit-transition:all 0.5s ease;}
+#index .e-1 i{background-position: 0 0;}
+#index .e-2 i{background-position: -98px 0;}
+#index .e-3 i{background-position: -196px 0;}
+#index .e-4 i{background-position: -294px 0;}
+#index .e-5 i{background-position: -392px 0;}
+
+/* .fast-menu2 li:hover .ico5{ transition:all 0.5s ease;-moz-transition:all 0.5s ease; -ms-transition:all 0.5s ease; -o-transition:all 0.5s ease; -webkit-transition:all 0.5s ease;} */
+#index .e-1 a:hover i{ background-position:0 -98px;}
+#index .e-2 a:hover i{ background-position:-98px -98px;}
+#index .e-3 a:hover i{ background-position:-196px -98px;}
+#index .e-4 a:hover i{ background-position:-294px -98px;}
+#index .e-5 a:hover i{ background-position:-392px -98px;}
+
