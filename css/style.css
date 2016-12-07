@@ -40,8 +40,11 @@ nav .line{padding-top: 10px;}
 	nav .nav-inline{margin: 39px -21px 0;font-size: 18px;}
 	nav .nav-inline li a{padding: 5px 21px;}
 }
+/*main*/
+.main{background-color: #fff}
 /*footer*/
-footer .fast-menu{height: 66px;background-color:#db1000;overflow: hidden;}
+.foot{position: fixed;left: 0;bottom: 0;width: 100%;z-index: -1;}
+footer .fast-menu{height: 66px;background-color:#db1000;overflow: hidden;margin-bottom:372px;}
 footer .fast-menu a{color: #fff;line-height: 66px}
 footer .fast-menu .float-left a{margin-right: 5px}
 footer .fast-menu .float-left a i{margin-right: 5px}
@@ -60,6 +63,6 @@ footer .bottom-nav{background-color: #27343c;height: 327px}
 
 
 footer .copycright{background-color: #171f23;height: 45px}
-footer .copycright p{line-height: 45px;color: #a9b3b3}
+footer .copycright p{line-height: 45px;color: #a9b3b3;margin: 0}
 footer .copycright a{color: #a9b3b3;padding-left: 5px}
 footer .copycright a:hover{color: #fff}
