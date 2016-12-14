@@ -86,7 +86,7 @@ footer .copycright a:hover{color: #fff}
 @media (min-width: 1200px){
 
 	.foot{position: fixed;left: 0;bottom: 0;width: 100%;z-index: -1;}
-	footer .fast-menu{height: 66px;overflow: hidden;margin-bottom:357px;}
+	footer .fast-menu{height: 66px;overflow: hidden;margin-bottom:336px;}
 }
 
 
