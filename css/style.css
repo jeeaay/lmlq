@@ -100,3 +100,7 @@ footer .copycright a:hover{color: #fff}
 .social-share .icon-wechat .wechat-qrcode:after{position:absolute;bottom:-13px;left:50%;margin-left:-6px;width:0;height:0;border-color:#fff transparent transparent transparent;border-style:solid;border-width:8px 6px 6px 6px;content:''}
 .social-share .icon-wechat:hover .wechat-qrcode{display:block}
 .social-share .social-share-icon:before{position: relative;bottom: 1px}
+@media (min-width: 1000px) and (max-width: 1199px){
+.social-share a.social-share-icon {width: 28px;height: 28px}
+.social-share .social-share-icon::before {bottom: 4px;font-size: 18px;}
+}
