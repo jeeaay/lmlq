@@ -18,6 +18,7 @@
 	<script src="./js/wow.min.js"></script>
 	<script src="./js/pintuer.js"></script>
 	<script src="./js/index.js"></script>
+	<script src="./js/social-share.min.js"></script>
 	<!--[if lt IE 8]>
 	<script src="./js/respond.js"></script>
 	<![endif]-->
@@ -345,10 +346,7 @@
 							<img class="img-responsive" src="./img/qrcode.jpg">
 							<div>
 								<span>分享到：</span>
-								<i class="icon icon-weibo" aria-hidden="true"></i>
-								<i class="icon icon-tencent-weibo" aria-hidden="true"></i>
-								<i class="icon icon-qq" aria-hidden="true"></i>
-								<i class="icon icon-weixin" aria-hidden="true"></i>
+								<div class="share-component" data-sites="weibo,qq,wechat,tencent"></div>
 							</div> 
 						</div>	
 					</div>
@@ -375,6 +373,12 @@
     if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
         new WOW().init();
     };
+    window.onload=function () {
+    	$(".social-share-icon.icon-wechat").attr("target","_self");
+	    $(".social-share-icon.icon-wechat").click(function() {
+	    	return false;
+	    })
+    }  
 </script>
 </body>
 </html>
