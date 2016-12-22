@@ -374,10 +374,12 @@
         new WOW().init();
     };
     window.onload=function () {
-    	$(".social-share-icon.icon-wechat").attr("target","_self");
-	    $(".social-share-icon.icon-wechat").click(function() {
-	    	return false;
-	    })
+    	if ($(window).width()>1000){
+    		$(".social-share-icon.icon-wechat").attr("target","_self");
+		    $(".social-share-icon.icon-wechat").click(function() {
+		    	return false;
+		    })
+    	}
     }  
 </script>
 </body>
