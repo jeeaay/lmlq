@@ -54,9 +54,9 @@
 @media (min-width:1200px){
 	.news_spec .carousel li{padding: 0 15px}
 }
-.news_weekly{margin-bottom: 32px}
-.news_weekly .xm4 img{margin-bottom: 30px}
-.news_weekly li{width: 50%;float: left;padding:0 10px;margin-bottom: 20px}
+.news_weekly{padding-bottom: 32px}
+.news_weekly .xm4 img{padding-bottom: 30px}
+.news_weekly li{width: 50%;float: left;padding:0 10px 20px;}
 .news_weekly h4{font-weight: bold;padding: 14px 0 5px}
 .news_weekly h4,.news_weekly p{color: #555;text-align: center;margin:0;}
 @media (min-width:760px){
