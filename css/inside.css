@@ -5,9 +5,10 @@
 .breadcrumb i{padding-right: 6px}
 .breadcrumb a{font-size: 18px;}
 .inside_list{font-size: 16px;}
-.inside_list_title{padding: 20px 0 30px}
+.inside_list_title{padding: 20px 0}
 .inside_list_title span,.inside_list_title span a{color:#7c7c7c;}
 .inside_list_title span a:hover{color: #d40000}
+/**img list**/
 .inside_list .img_list a{color: #333}
 .inside_list .img_list h2{padding: 14px 0 7px}
 .inside_list .img_list h2:hover{color: #d40000}
@@ -30,18 +31,44 @@
 	.inside_list .img_list h2{padding: 14px 0 20px}
 	.inside_list .img_list p{padding-top: 37px;}
 }
+/**text list**/
+.text_list .date-l div{background-color: #d40000;color: #fff;padding: 15px 0}
+.text_list .date-l span{font-size: 36px;font-weight: bold;}
+.text_list .date-l p{font-size: 12px;margin: 0}
+.text_list a{color: #333}
+.text_list .list_title span{color: #555}
+.text_list .xl12 h2:hover{color: #d40000}
+.text_list .xl12 p{margin: 0}
+.text_list .xl12 p:hover{color: #d40000}
+.text_list .list_title{padding-bottom: 6px;}
+.text_list li{padding-bottom: 30px}
+@media (min-width: 1000px){
+	.text_list .date-l span{line-height: 1;}
+	.text_list .date-l p{line-height: 1;padding-top: 6px}
+	.text_list .date-l{width: 100px;height: 80px}
+	.text_list .date-l div{padding: 12px 0}
+	.text_list .xl12{width: 900px}
+	.text_list .list_title h2{float: left;}
+	.text_list .list_title span{float: right;}
+	.text_list .list_title{padding-bottom: 8px;border-bottom: 1px dotted #999}
+	.text_list .xl12 p{margin: 7px 0 0;}
+	.text_list li{padding-bottom: 45px}
+}
+@media (min-width: 1200px){
+	.text_list .date-l{width: 110px;}
+	.text_list .list_title{padding-bottom: 17px;}
+	.text_list .xl12{width: 1090px}
+	.text_list .xl12 p{line-height: 32px}
+	.text_list li{padding-bottom: 32px}
+}
 /*pagination*/
 .pager,.pager-l{margin: 22px 0 52px}
 @media (min-width: 760px){.pager-l{max-width: 500px;margin: 22px auto 52px}}
-
 .pager span{display: block;margin: 10px 0;font-size: 16px;}
-
-
 .pager-l .pagination li,.pager-l .pagination a{border-radius: 0}
 .pager-l .pagination li a:hover,.pager-l .pagination li a.active{background-color: #d40000;color: #fff}
 .pager-l .pagination{margin:0 5px}
 .pager-l span{line-height: 36px}
-
 /**new index**/
 .news_group{padding-top: 25px}
 .news_group .title-float,.news_industry .title-float{font-size: 24px;font-weight: bold;position: absolute;top:10px;left: 35px;z-index: 1;}
