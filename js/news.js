@@ -3,7 +3,7 @@ $(function () {
 	/*new index carousel*/
 	var ch_active=function (i) {
 		$(".news_group .carou li").hide();
-		$(".news_group .carou li").eq(i).fadeIn(200);
+		$(".news_group .carou li").eq(i).show();
 		$(".news_group_r li").removeClass("active");
 		$(".news_group_r li").eq(i).addClass("active");
 	}
@@ -28,7 +28,9 @@ $(function () {
 		ch_active(i);
 	})
 	$(".news_group_r li").mouseenter(function() {
-		ch_active($(this).index());
+		if ($(this).index()!=$(".news_group_r .active").index()) {
+			ch_active($(this).index());
+		}
 	})
 
 	

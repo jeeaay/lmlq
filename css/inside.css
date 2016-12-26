@@ -1,8 +1,8 @@
 .pos-r{position: relative;}
 /*news*/
 .news_group{padding-top: 25px}
-.news_group .title-float{font-size: 24px;font-weight: bold;position: absolute;top:10px;left: 35px;z-index: 1;}
-.news_group .title-float a{color: #fff;display: block;padding:19px 24px;background-color: #d40000; width: 100px}
+.news_group .title-float,.news_industry .title-float{font-size: 24px;font-weight: bold;position: absolute;top:10px;left: 35px;z-index: 1;}
+.news_group .title-float a,.news_industry .title-float a{color: #fff;display: block;padding:19px 24px;background-color: #d40000; width: 100px}
 .news_group .more{font-size: 18px;color: #555;margin-bottom: 14px}
 .news_group .more .icon{padding-right: 10px}
 .news_group .carou{position: relative;}
@@ -33,15 +33,34 @@
 	.news_group_r {padding-top: 30px}
 }
 
-
-
-
+.news_industry{padding-top: 30px}
+.news_industry .title-float{left: auto;right: 20px;top: -25px}
+.news_industry_padding{padding:24px 15px 12px}
+.news_industry_padding h4{padding-bottom: 7px}
+.news_industry_padding a p{color: #555;margin: 0}
+.news_industry_ul{padding:0px 0px 30px;}
+.news_industry_ul li{width: 50%;float: left;padding: 14px 20px}
+.news_industry_ul li a{display: block;height: 45px;border: 1px solid #ccc;text-align: center;line-height: 45px}
+.news_industry_ul li a:hover{border-color: #d40000}
+@media (min-width: 760px) {
+	.news_industry{padding-top: 77px}
+	.news_industry_padding{padding:24px 20px 12px}
+}
+@media (min-width: 1000px) and (max-width: 1199px){
+	.news_industry_padding{padding:25px 0 10px 20px;}
+	.news_industry_ul li{padding: 8px 20px;}
+}
+@media (min-width: 1200px){
+	.news_industry_padding{padding:50px 0 31px 34px;}
+	.news_industry_padding h4{padding-bottom: 14px}
+	.news_industry_ul{padding: 0px 0 36px 14px;}
+}
 .news_spec{background-color: #f1f1f1;margin-top: 60px;padding-bottom: 63px;}
 .news_spec .container{position: relative;}
-.news_spec h2,.news_weekly h2{font-size: 24px;font-weight: bold;padding: 30px 0 22px}
+.news_spec h2,.news_weekly h2{font-size: 24px;padding: 30px 0 22px}
 .news_spec .banner{position: inherit;}
 .news_spec .carousel img,.news_weekly li img,.news_weekly .xm4 img{display: block;width: 100%;height: auto;}
-.news_spec .carousel h4{font-weight: bold;padding: 24px 0 10px}
+.news_spec .carousel h4{padding: 24px 0 10px}
 .news_spec .carousel p{color: #555}
 .news_spec .carousel li{padding: 0 10px}
 .news_spec .carousel li a{padding:20px 15px;display: block;background-color: #fff}
@@ -57,7 +76,7 @@
 .news_weekly{padding-bottom: 32px}
 .news_weekly .xm4 img{padding-bottom: 30px}
 .news_weekly li{width: 50%;float: left;padding:0 10px 20px;}
-.news_weekly h4{font-weight: bold;padding: 14px 0 5px}
+.news_weekly h4{padding: 14px 0 5px}
 .news_weekly h4,.news_weekly p{color: #555;text-align: center;margin:0;}
 @media (min-width:760px){
 	.news_weekly li{width: 20%;}
