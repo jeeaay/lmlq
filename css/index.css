@@ -42,6 +42,7 @@
 #index .c a:hover,#index .c a:focus{color: #333;}
 #index .c h4{padding: 15px 0 4px}
 #index .c h3{padding: 4px 0 6px;}
+#index .c p{padding-bottom: 15px}
 @media (min-width: 760px){
 	#index .c p{padding-right: 15px}
 }
