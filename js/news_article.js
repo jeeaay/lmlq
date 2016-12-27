@@ -1,5 +1,6 @@
 $(function () {
 	//set font size
+	//在这里设置好你要修改大小的对象
 	var obj=$(".cont p");
 	current_font_size =parseFloat(obj.css("font-size"),10);
 	$(".font-bigger").click(function(){
