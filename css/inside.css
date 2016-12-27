@@ -12,12 +12,13 @@
 .inside_list .img_list a{color: #333}
 .inside_list .img_list h2{padding: 14px 0 7px}
 .inside_list .img_list h2:hover{color: #d40000}
-.inside_list .img_list p{padding-top: 14px;margin:0;}
+.inside_list .img_list p{padding-top: 14px;}
 .inside_list .img_list span{color: #555}
+.inside_list_title .h1,.inside_list_title h1{font-size: 26px;}
 @media (min-width: 760px){
-	.inside_list_title{padding: 33px 0 24px}
+	.inside_list_title{padding: 28px 0 24px}
 	.breadcrumb{padding-top: 30px}
-	.inside_list_title h1{float: left}
+	.inside_list_title .h1,.inside_list_title h1{float: left}
 	.inside_list_title span{float: right;padding-top: 8px}
 	.inside_list .img_list h2{padding: 7px 0 3px}
 	.inside_list .img_list p{padding-top: 6px;}
@@ -38,7 +39,7 @@
 .text_list a{color: #333}
 .text_list .list_title span{color: #555}
 .text_list .xl12 h2:hover{color: #d40000}
-.text_list .xl12 p{margin: 0}
+
 .text_list .xl12 p:hover{color: #d40000}
 .text_list .list_title{padding-bottom: 6px;}
 .text_list li{padding-bottom: 30px}
@@ -147,7 +148,7 @@
 .news_weekly .xm4 img{padding-bottom: 30px}
 .news_weekly li{width: 50%;float: left;padding:0 10px 20px;}
 .news_weekly h4{padding: 14px 0 5px}
-.news_weekly h4,.news_weekly p{color: #555;text-align: center;margin:0;}
+.news_weekly h4,.news_weekly p{color: #555;text-align: center;}
 @media (min-width:760px){
 	.news_weekly li{width: 20%;}
 }
@@ -155,4 +156,81 @@
 	.news_weekly li{padding:0 15px}
 }
 
-/**new group**/
+/**news spec list**/
+.spec_list a{color: #3a3a3a}
+.spec_list h5{padding: 12px 0 8px}
+.spec_list p{padding: 7px 0 20px;font-size: 14px;}
+@media (min-width:1200px){
+	.spec_list p{padding: 7px 0 30px;}
+}
+/**news weekly list**/
+.weekly_title_l{color: #2b2b2b;float: left;}
+.weekly_title_l h2{font-size: 27px;font-weight: 100;padding: 15px 0 0}
+.weekly_title_l .date{padding-top: 18px}
+.weekly_title_l a{color: #d40000}
+.weekly_title_l .date .b{padding: 0 14px}
+.weekly_title_r {padding-top: 33px;float: right;}
+@media (min-width:452px){
+	.weekly_title_l h2{font-size: 27px;font-weight: 100;padding: 15px 0 0 20px}
+	
+}
+@media (min-width:1000px){
+	.weekly_title{padding-top: 48px}
+}
+.last_weekly{padding-top: 50px}
+.last_weekly a{color: #3a3a3a}
+.last_weekly span,.last_weekly h2:hover{color: #d40000}
+.last_weekly .h2{padding: 12px 0}
+.last_weekly h2{padding-bottom: 18px}
+@media (max-width:450px){
+.last_weekly .xl5,.last_weekly .xl7{width: 100%}
+}
+@media (min-width:1200px){
+	.last_weekly .h2{padding: 14px 0 22px}
+	.last_weekly h2{padding-bottom: 25px}
+}
+.weekly_list{padding-top: 30px}
+.weekly_list img{padding: 0 10px 8px 0;margin-bottom: 8px;-moz-box-shadow:5px 5px 3px #EBEBEB; -webkit-box-shadow:5px 5px 3px #EBEBEB; box-shadow:5px 5px 3px #EBEBEB;}
+.weekly_list p{font-size: 14px;}
+.weekly_list .phase{font-size: 12px;}
+.weekly_list li{padding-bottom: 15px}
+@media (min-width:301px) and (max-width: 450px){
+	.weekly_list li{width: 50%}
+}
+@media (min-width:760px){
+	.weekly_list{padding-top: 45px}
+}
+@media (min-width:1200px){
+	.weekly_list{padding-top: 60px}
+}
+/*news article*/
+.cont_head{color: #999;padding-bottom: 16px;float: left;}
+.cont_head time,.view_num{padding-left: 5px}
+.font_s{padding-right: 5px}
+.font-bigger{padding-right: 5px}
+.font-normal{padding-right: 7px}
+.cont_head sup{font-family: 微软雅黑;cursor: pointer;}
+.font-bigger,.font-normal,.font-smaller{cursor: pointer;}
+
+.cont_head li{display: inline-block;padding-right: 10px}
+.inside_list h1{padding: 14px 0 28px}
+.go_back{float: right;padding-bottom: 16px;}
+.go_back i{color: #d40000;padding-left: 12px}
+.cont p{line-height: 32px;margin-bottom: 16px;text-indent: 2em;}
+.cont img{max-width: 100%;margin: 0 auto;display: block;padding: 16px 0 32px}
+@media (min-width:760px){
+	.cont_head li{padding-right: 20px}
+	.cont_head,.go_back{padding-bottom: 26px;}
+}
+@media (min-width:1000px){
+	.cont_head li{padding-right: 32px}
+}
+.cont_pager{background-color:#eaeaea;border:1px dotted #ccc;text-align: center;line-height: 60px;margin-bottom: 33px}
+.cont_pager a{white-space:nowrap;overflow: hidden;}
+.cont_pager span{width: 80px;display: block;color: #333;background-color:#dbdbdb;position: relative; }
+.cont_pager .pre span{float: left;}
+.cont_pager .next span{float: right;}
+
+@media (min-width:1000px){
+	.cont_pager .pre{border-right: 1px solid #ccc}
+}
