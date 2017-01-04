@@ -1,5 +1,14 @@
 .pos-r{position: relative;}
 .banner_inside{height: 200px}
+.sec_title{text-align: center;padding: 15px 0 14px}
+.sec_title h2{padding:0 0 8px 0}
+.sec_title p{max-width: 48em;margin: 0 auto}
+/*sec_title上下距离都是34*/
+@media (min-width: 760px){
+	.sec_title{padding: 30px 0 28px}
+	.sec_title h2{font-size: 24px;padding:0 0 17px 0}
+	.sec_title p{font-size: 18px;line-height: 31px;}
+}
 /*list*/
 .breadcrumb{padding-top: 15px}
 .breadcrumb i{padding-right: 6px}
@@ -195,7 +204,7 @@
 .weekly_list .phase{font-size: 12px;}
 .weekly_list li{padding-bottom: 15px}
 @media (min-width:301px) and (max-width: 450px){
-	.weekly_list li{width: 50%}
+	.weekly_list li{width: 50%;float: left;}
 }
 @media (min-width:760px){
 	.weekly_list{padding-top: 45px}
@@ -233,4 +242,70 @@
 
 @media (min-width:1000px){
 	.cont_pager .pre{border-right: 1px solid #ccc}
+}
+/*server*/
+#server .banner_inside{height: 420px}
+.banner_con{width: 670px;max-width: 100%;padding: 80px 0 0 0}
+.banner_con h1{padding-bottom: 15px;line-height: 1.5;}
+@media (min-width: 760px){
+	.banner_con h1{font-size: 32px;}
+	.banner_con p{font-size: 18px;line-height: 32px;}
+	.banner_con{width: 670px;max-width: 100%;padding: 114px 0 0 52px}
+}
+.server_specialist{padding-top: 11px}
+.server_specialist li{padding: 0 10px;text-align: center;margin-bottom: 20px}
+.server_specialist li a{display: block;height: 120px;width: 120px;border-radius: 50%;background-color: #e6e6e6;padding-top: 6px;transition: all .4s;-webkit-transition: all .4s;-moz-transition: all .4s}
+.server_specialist li i{font-size: 36px;cursor: default}
+.server_specialist li p{width: 4em;margin: 0 auto;}
+@media (max-width: 759px){
+	.server_specialist ul{display: -webkit-flex;display: flex;flex-wrap:wrap;justify-content:center;}
+}
+@media (min-width: 760px){
+	.server_specialist li i{font-size: 44px;}
+	.server_specialist li{width: 20%;float: left;}
+	.server_specialist li a{width: 130px;height: 130px}
+}
+@media (min-width: 1000px){
+	.server_specialist li i{font-size: 60px;}
+	.server_specialist li a{width: 180px;height: 180px;padding-top: 18px}
+}
+@media (min-width: 1200px){
+	.server_specialist li{padding: 0 15px;margin-bottom: 20px}
+	.server_specialist li a{width: 210px;height: 210px;padding-top: 21px}
+	.server_specialist li p{font-size: 18px;line-height: 28px;padding-top: 1px}
+}
+.server_specialist li a:hover {color: #fff;background-color: #d40000}
+.appointment{margin: 0 auto;max-width: 372px;text-align: center;}
+.appointment a{display: block;width: 186px;max-width: 50%;float: left;}
+.appointment a span{margin: 0 11px;display: block;height: 40px;line-height: 40px;}
+.appointment .specialist span{border: 1px solid #d0d0d0;}
+.appointment .visit span,.appointment .specialist span:hover{color: #fff;background: #d40000;border-color:  #d40000;}
+/*server list*/
+.server_list{padding-top: 32px}
+.server_list ul{padding-top: 7px}
+.server_list li{padding-bottom: 20px;}
+@media (min-width: 1200px){
+	.server_list li{padding-bottom: 30px}
+}
+.server_list li a{color: #3a3a3a;cursor: default;}
+.server_list li p{cursor: pointer;}
+.server_list li h3{margin: 24px 0 7px;cursor: pointer;}
+.server_list li span,.server_activity a{display: block;width: 148px;height: 30px;line-height: 28px;text-align: center;border: 1px solid #d0d0d0;cursor: pointer;margin-top:13px;color: #d40000;}
+.server_list li p:hover,.server_list li h3:hover{color: #d40000}
+.server_list li span:hover,.server_activity a:hover{color: #fff;background-color: #d40000;border-color: #d40000}
+/*server activity*/
+.server_activity{background-color:#f5f5f5}
+.server_activity .line-big{padding: 16px 0 14px}
+.server_activity h2{padding-bottom: 8px}
+.server_activity h4{padding-bottom: 8px;font-weight: inherit;}
+.server_activity span{display: inherit;padding: 7px 0 10px}
+.server_activity a{width: 177px;margin:0 0 30px}
+@media (min-width: 760px){
+.server_activity h2{padding:18px 0 12px}
+}
+@media (min-width: 1200px){
+	.server_activity .line-big{padding: 33px 0 28px}
+	.server_activity h2{padding:40px 0 18px}
+	.server_activity h4{padding-bottom: 16px;}
+	.server_activity span{padding: 14px 0 23px}
 }
