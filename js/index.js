@@ -3,7 +3,7 @@ $(function () {
 	$(".b-bg").hide();
 	$(".b-bg").eq(0).show();
 	var len=$(".b-bg").length;
-	i=0;
+	window.i=0;
 	$(".b-b .icon-angle-right").click(function() {
 		i++;
 		if (i==len) {i=0};
