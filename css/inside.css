@@ -3,6 +3,7 @@
 .sec_title{text-align: center;padding: 15px 0 14px}
 .sec_title h2{padding:0 0 8px 0}
 .sec_title p{max-width: 48em;margin: 0 auto}
+.text-millgreen{color: #507a01}
 /*sec_title上下距离都是34*/
 @media (min-width: 760px){
 	.sec_title{padding: 30px 0 28px}
@@ -307,4 +308,58 @@
 	.server_activity h2{padding:40px 0 18px}
 	.server_activity h4{padding-bottom: 16px;}
 	.server_activity span{padding: 14px 0 23px}
+}
+/*server_construction*/
+.server_h2{padding: 11px 0 6px;font-size: 24px;}
+#server .strength ul{margin: 20px 0}
+#server .strength ul li {margin-top: 20px;padding: 0 10px}
+@media (max-width: 759px){
+	#server .strength ul{display: -webkit-flex;display: flex;flex-wrap:wrap;justify-content:center;}
+	#server .strength ul li{width: 132px}
+}
+@media (min-width: 760px){
+	#server .server_h2p{font-size: 16px;line-height: 32px;}
+	.server_h2{padding: 22px 0 13px;font-size: 30px;}
+	#server .strength ul{margin: 10px -15px}
+	#server .strength ul li {width: 14.2857%;padding:0 15px;float: left;margin-top: 30px}
+}
+
+
+#server .strength ul li i{background:url(../img/server/strength.png) no-repeat;display: block;overflow: hidden;vertical-align: middle;width: 55px;height: 50px;margin: 0 auto 7px;transition: all 0.5s ease;-moz-transition: all 0.5s ease;-ms-transition: all 0.5s ease;-o-transition: all 0.5s ease;-webkit-transition: all 0.5s ease;}
+
+#server .strength .e2 i{background-position: -55px 0;width: 48px;}
+#server .strength .e3 i{background-position: -104px 0;width: 53px;}
+#server .strength .e4 i{background-position: -157px 0;width: 50px;}
+#server .strength .e5 i{background-position: -207px 0;width: 50px;}
+#server .strength .e6 i{background-position: -257px 0;width: 34px;}
+#server .strength .e7 a{display: block;width: 100$;height: 76px;line-height: 76px;background-color: #dbdbdb;margin: 0 auto}
+#server .strength .e7 span{font-size: 18px;}
+#server .application .list-inline li{padding: 0 15px 0 0;margin: 10px 0 15px}
+#server .application .list-inline a{padding:0 2px;border-bottom: 2px solid #aac180; color: #507a01;font-size: 16px;}
+#server .application .list-inline a span{font-size: 24px;}
+#server .application .banner{margin-bottom: 40px}
+#server .application .banner p,#server .application .banner h4{color: #3a3a3a;}
+#server .application .banner h4{padding: 13px 0 7px}
+#server .application .banner h4:hover{color: #d40000}
+#server .application .banner .pager-prev,#server .application .banner .pager-next{margin-top: -60px}
+#server .application .banner .pointer{bottom: 75px}
+.application .materials li{display: block;width: 50%;float: left;padding:0 10px 20px}
+.application .mate_list h3 {padding-bottom: 12px}
+@media (min-width: 760px){
+	#server .application .list-inline li{padding: 0 42px 0 0;margin: 12px 0 31px}
+	.application .mate_list a{font-size: 16px;}
+	#server .application .banner .pointer{bottom: 75px}
+	#server .application .banner .pager-prev,#server .application .banner .pager-next{margin-top: -60px}
+	.application .mate_list h3{font-size: 26px}
+	.application .materials li{width:25%}
+}
+.application li.mate_list{width: 100%;padding-bottom: 8px}
+@media (min-width: 1000px){
+	.application .materials li{width:20%;}
+	.application .mate_list a{display: block;width: 30%;float: left;}	
+}
+@media (min-width: 1200px){
+	.application .materials li{padding:0 15px}
+	.application .mate_list h3 {padding-bottom: 7px}
+	.application .mate_list a{display: block;width: 30%;float: left;line-height: 32px;}	
 }
