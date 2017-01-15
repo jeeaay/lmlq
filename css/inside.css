@@ -363,3 +363,37 @@
 	.application .mate_list h3 {padding-bottom: 7px}
 	.application .mate_list a{display: block;width: 30%;float: left;line-height: 32px;}	
 }
+#server .case img{display: none;padding-bottom: 30px}
+#server .case .panel{border: 0;border-radius: 0;padding: 10px 2px}
+#server .case .panel .panel-head{background-color: transparent;border: 0;cursor: pointer;padding-bottom: 0;}
+#server .case .panel .panel-body{padding-top: 5px}
+#server .case .panel h4{font-size: 18px;font-weight: 100;}
+
+#server .case .active{background-color: #80ae28;padding: 15px 2px}
+#server .case .active h4{color: #fff;font-weight: 600;}
+#server .case .active a{color: #fff;line-height: 23px;}
+@media (min-width: 760px){
+	#server .case img{padding-bottom: 39px}
+}
+#server .more{display:block;background-color: #f4f5f7;color: #649900;line-height: 100%;}
+#server .product li{margin: 10px 0}
+#server .more i{font-size: 50px;}
+#server .more p{font-size: 24px;font-weight: bold;padding-top: 10px}
+@media (min-width: 1200px){
+	#server .product li{margin: 15px 0}
+}
+#server .parts{margin-top: 30px;padding-bottom: 15px}
+#server .first div{background-color:#f4f5f7;padding:0 10px 10px;color: #555}
+#server .first h2{padding: 12px 0 5px}
+#server .first a{display: block;width: 31px;height: 30px;background-color: #649900;color: #fff;font-size: 25px;line-height: 28px;text-align: center;margin: 12px 0 0}
+#server .parts li{position: relative;margin-bottom: 20px}
+#server .parts_name{position: absolute;display: block;width: 100%;left: 0;bottom: 0;padding: 0 10px}
+#server .parts_name p{width: 100%;text-align: center;color: #fff;background-color: rgba(0,0,0,.66);line-height: 39px;}
+@media (min-width: 760px){
+	#server .first a{margin: 24px 0 0}
+	#server .first h2{padding: 26px 0 10px}
+	#server .first div{padding:0 20px 30px}
+}
+@media (min-width: 1200px){
+	#server .parts_name{padding: 0 15px}
+}
