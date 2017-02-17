@@ -437,3 +437,10 @@
 @media (min-width: 1200px){
 	.network_contact li{min-width: 230px;font-size: 18px;}
 }
+.support .a li{color: #fff}
+.support .a li h4{font-size: 24px;}
+.support .call{}
+.support .intro{padding: 35px;position: relative;}
+.support .intro.red{background-color: #db1000;}
+
+.support .call{color: #fff;position: absolute;}
