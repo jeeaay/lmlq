@@ -492,5 +492,55 @@
 	.support .c_3 h5 span{font-size: 70px;color: #db1000}
 	.support .c_3 p{padding-bottom: 30px;font-size: 22px;}
 }
-
-
+.train .a ul{text-align: center;}
+.train .a ul li{margin-top: 14px;margin-bottom:6px }
+.train .a ul div{border: 1px solid #b8b8b8;transition: all .3s;height: 116px;} 
+.train .a ul div:hover{background-color: #929292;border-color: #929292}
+.train .a ul div:hover h3{color: #fff;padding-bottom: 5px;}
+.train .a ul div:hover p{color: #fff;font-size: 18px;font-weight: bold;}
+.train .a ul h3{color: #ef011c;padding-top: 30px;padding-bottom: 5px;}
+@media (min-width:1200px){
+	.train .a ul li{margin-top: 17px;margin-bottom: 11px;}
+}
+.train .b .icon{display:block;width:77px;height:77px;border-radius:50%;background-color:#ff454c;color:#fff;vertical-align:middle;text-align:center;font-size:48px;line-height:72px;margin:0 auto;margin-bottom: 6px;}
+.train .b li{margin-bottom: 24px;}
+.train .b_1{margin-bottom: 30px;}
+.train .c{background: #e5e5e5;}
+#server .train .c h2{padding:38px 0 32px;}
+.train .c .m_b{margin-bottom: 10px}
+.train .c_2{margin-top: 22px;}
+.train .c .clearfix{margin-bottom: 20px}
+@media (min-width:1200px){
+	.train .c .clearfix{margin-bottom: 30px}
+}
+.train .c_3r{padding: 10px 0;}
+.train .c_3r2{margin-left: 12px;}
+@media (min-width:606px){
+	.train .c_3l,.train .c_3r{float: left;width: 50%}
+	.train .c_3r{padding: 10px;}
+}
+@media (min-width:1000px) and (max-width: 1199px){
+	.train .c_3l{width: 40%}
+	.train .c_3r{width: 60%}
+}
+.train .c_4 img{padding-bottom: 20px;}
+.train .d img{max-width: 100%;margin:0 auto 13px;display: block;}
+.train .d p{color: #575757;padding-bottom: 14px;}
+#server .train .d h2{padding:19px 0 18px; }
+@media (min-width:760px){
+	.train .d img{margin:0 auto 27px;}
+	#server .train .d h2{padding:38px 0 36px; }
+}
+#server .train .e h2{padding-bottom: 8px;}
+.train .e li a{display: block;height: 40px;border: 1px solid #d0d0d0;font-size: 20px;line-height: 38px;text-align: center;margin: 12px 0;transition: all .3s;}
+.train .e ul{margin: 11px 0;}
+@media (min-width:630px){
+	.train .e ul{margin:16px -10px 20px;}
+	.train .e li{padding: 0 10px;width: 33.3333%;float: left}
+	
+}
+@media (min-width:1000px){
+	.train .e ul{margin:22px -13px 29px;max-width: 915px}
+	.train .e li{padding: 0 13px;width: 33.3333%;float: left}
+}
+.train .e li a:hover{background-color: #ef011c;color:#fff}
