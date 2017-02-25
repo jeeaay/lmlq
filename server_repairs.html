@@ -93,7 +93,7 @@
 			>
 			<a href=".">在线报修</a>
 		</div>
-		<article class="inside_list container">
+		<article class="inside_list container repair">
 			<div class="inside_list_title clearfix">
 				<h1>我要报修</h1>
 				<span>相关栏目：<a>服务网络</a>&nbsp;|&nbsp;<a>正品配件</a>&nbsp;|&nbsp;<a>维修保养</a>&nbsp;|&nbsp;<a>客户培训</a></span>
@@ -102,29 +102,29 @@
 				<form method="post" class="form-x">
 					<div class="form-group xm6">
 						<div class="label">
-							<label for="username">
+							<label>
 								您的称呼：</label>
 						</div>
 						<div class="field">
-							<input type="text" class="input" id="username" name="username" size="30" placeholder="请填写您的称呼" />
+							<input type="text" class="input" name="username" size="30" placeholder="请填写您的称呼" />
 						</div>
 					</div>
 					<div class="form-group xm6">
 						<div class="label">
-							<label for="username">
+							<label>
 								联系方式：</label>
 						</div>
 						<div class="field">
-							<input type="text" class="input" id="username" name="username" size="30" placeholder="手机或QQ，手机号更利于问题的跟进和处理" />
+							<input type="text" class="input" name="tel" size="30" placeholder="手机或QQ，手机号更利于问题的跟进和处理" />
 						</div>
 					</div>
 					<div class="form-group xm6">
 						<div class="label">
-							<label for="username">
+							<label>
 								使用地区：</label>
 						</div>
 						<div class="field">
-							<select class="input">
+							<select name="province" class="input">
 								<option>请选择</option>
 								<option>CSS</option>
 								<option>元件</option>
@@ -135,11 +135,11 @@
 					</div>
 					<div class="form-group xm6">
 						<div class="label">
-							<label for="username">
+							<label>
 								所在城市：</label>
 						</div>
 						<div class="field">
-							<select class="input">
+							<select name="city" class="input">
 								<option>请选择</option>
 								<option>CSS</option>
 								<option>元件</option>
@@ -148,89 +148,119 @@
 							</select>
 						</div>
 					</div>
-					<div class="form-group xm12">
+					<div class="form-group xm12 type">
 						<div class="label">
-							<strong>设备类别：</strong>
+							<label>设备类别：</label>
 						</div>
 						<div class="field">
 							<div class="button-group radio">
 								<label class="button active">
-									<input name="pintuer" value="建筑破碎类加工设备" checked="checked" type="radio"><span class="icon icon-check text-green"></span> 建筑破碎类加工设备
+									<input name="type" value="建筑破碎类加工设备" checked="checked" type="radio"><span class="icon icon-check text-green"></span> 建筑破碎类加工设备
 								</label>
 								<label class="button">
-									<input name="pintuer" value="矿山破碎类加工设备" type="radio"><span class="icon icon-check text-green"></span> 矿山破碎类加工设备
+									<input name="type" value="矿山破碎类加工设备" type="radio"><span class="icon icon-check text-green"></span> 矿山破碎类加工设备
 								</label>
 								<label class="button">
-									<input name="pintuer" value="工业制粉类加工设备" type="radio"><span class="icon icon-check text-green"></span> 工业制粉类加工设备
+									<input name="type" value="工业制粉类加工设备" type="radio"><span class="icon icon-check text-green"></span> 工业制粉类加工设备
 								</label>
 								<label class="button">
-									<input name="pintuer" value="绿色建材类加工设备" type="radio"><span class="icon icon-check text-green"></span> 绿色建材类加工设备
+									<input name="type" value="绿色建材类加工设备" type="radio"><span class="icon icon-check text-green"></span> 绿色建材类加工设备
 								</label>
 								<label class="button">
-									<input name="pintuer" value="其他配套类加工设备" type="radio"><span class="icon icon-check text-green"></span> 其他配套类加工设备
+									<input name="type" value="其他配套类加工设备" type="radio"><span class="icon icon-check text-green"></span> 其他配套类加工设备
 								</label>
 							</div>
 						</div>
 					</div>
 					<div class="form-group xm12">
 						<div class="label">
-							<strong>设备名称：</strong>
+							<label>设备名称：</label>
 						</div>
-						<div class="field">
+						<div class="field product">
 							<label>
-								<input name="c6x" type="checkbox">c6x系列颚式破碎机
-								<input name="c6x" type="checkbox">c6x系列颚式破碎机
-								<input name="c6x" type="checkbox">c6x系列颚式破碎机
-								<input name="c6x" type="checkbox">c6x系列颚式破碎机
-								<input name="c6x" type="checkbox">c6x系列颚式破碎机
-								<input name="c6x" type="checkbox">c6x系列颚式破碎机
+								<input name="product" value="C6X系列颚式破碎机" type="checkbox"><span>c6x系列颚式破碎机</span>
+							</label>
+							<label>	
+								<input name="product" value="深腔颚式破碎机" type="checkbox"><span>深腔颚式破碎机</span>
+							</label>
+							<label>	
+								<input name="product" value=" 欧版颚式破碎机" type="checkbox"><span> 欧版颚式破碎机</span>
+							</label>
+							<label>	
+								<input name="product" value="CI5X系列反击式破碎机" type="checkbox"><span>CI5X系列反击式破碎机</span>
+							</label>
+							<label>	
+								<input name="product" value="欧版反击式破碎机" type="checkbox"><span>欧版反击式破碎机</span>
+							</label>
+							<label>	
+								<input name="product" value="反击式破碎机" type="checkbox"><span>反击式破碎机</span>
+							</label>
+							<label>	
+								<input name="product" value="HPT液压圆锥破碎机" type="checkbox"><span>HPT液压圆锥破碎机</span>
+							</label>
+							<label>	
+								<input name="product" value="HST单缸液压圆锥破碎机" type="checkbox"><span>HST单缸液压圆锥破碎机</span>
+							</label>
+							<label>	
+								<input name="product" value="CS圆锥破碎机" type="checkbox"><span>CS圆锥破碎机</span>
+							</label>
+							<label>	
+								<input name="product" value="K系列轮胎移动站" type="checkbox"><span>K系列轮胎移动站</span>
+							</label>
+							<label>	
+								<input name="product" value="其它设备" type="checkbox"><span>其它设备</span>
 							</label>
 						</div>
 					</div>
-					<div class="form-group xm6">
+					<div class="form-group xm6 time">
 						<div class="label">
-							<strong>使用时间：</strong>
+							<label>使用时间：</label>
 						</div>
 						<div class="field">
 							<div class="button-group radio">
 								<label class="button active">
-									<input name="pintuer" value="6个月以内" checked="checked" type="radio"><span class="icon icon-check text-green"></span> 6个月以内
+									<input name="time" value="6个月以内" checked="checked" type="radio"><span class="icon icon-check text-green"></span> 6个月以内
 								</label>
 								<label class="button">
-									<input name="pintuer" value="12个月以内" type="radio"><span class="icon icon-check text-green"></span> 12个月以内
+									<input name="time" value="12个月以内" type="radio"><span class="icon icon-check text-green"></span> 12个月以内
 								</label>
 								<label class="button">
-									<input name="pintuer" value="36个月以内" type="radio"><span class="icon icon-check text-green"></span> 36个月以内
+									<input name="time" value="36个月以内" type="radio"><span class="icon icon-check text-green"></span> 36个月以内
 								</label>
 								<label class="button">
-									<input name="pintuer" value="3年以上" type="radio"><span class="icon icon-check text-green"></span> 3年以上
+									<input name="time" value="3年以上" type="radio"><span class="icon icon-check text-green"></span> 3年以上
 								</label>
 							</div>
 						</div>
 					</div>
 					<div class="form-group xm6">
 						<div class="label">
-							<label for="username">
+							<label>
 								电子邮箱：</label>
 						</div>
 						<div class="field">
-							<input type="text" class="input" id="username" name="username" size="30" placeholder="请填写您的e-mail地址" />
+							<input type="text" class="input" name="email" size="30" placeholder="请填写您的e-mail地址" />
 						</div>
 					</div>
 					<div class="form-group xm12">
 						<div class="label">
-							<label for="readme">
+							<label>
 								问题描述：</label>
 						</div>
 						<div class="field">
-							<textarea class="input" rows="5" cols="50" placeholder="简单介绍下所保修的内容"></textarea>
+							<textarea name="msg" class="input" rows="5" cols="50" placeholder="简单介绍下所保修的内容"></textarea>
 						</div>
 					</div>
 					<div class="form-button xm12">
-						<button class="button" type="button">
-							登录</button>
-						<button class="button" type="reset">
+						<div class="submit">
+							<button class="button" type="button">
+							提交</button>
+						</div>
+						<div class="reset">
+							<button class="button" type="reset">
 							重新填写</button>
+						</div>
+						
 					</div>
 				</form>
 			</div>
