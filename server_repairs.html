@@ -19,6 +19,7 @@
 	<script src="./js/pintuer.js"></script>
 	<script src="./js/news_article.js"></script>
 	<script src="./js/social-share.min.js"></script>
+	<script src="./js/province.js"></script>
 	<!--[if lt IE 8]>
 	<script src="./js/respond.js"></script>
 	<![endif]-->
@@ -124,12 +125,8 @@
 								使用地区：</label>
 						</div>
 						<div class="field">
-							<select name="province" class="input">
-								<option>请选择</option>
-								<option>CSS</option>
-								<option>元件</option>
-								<option>模块</option>
-								<option>javascript组件</option>
+							<select id="province" onchange="areaMap.city(this.value);" name="province" class="input">
+								
 							</select>
 						</div>
 					</div>
@@ -139,15 +136,12 @@
 								所在城市：</label>
 						</div>
 						<div class="field">
-							<select name="city" class="input">
-								<option>请选择</option>
-								<option>CSS</option>
-								<option>元件</option>
-								<option>模块</option>
-								<option>javascript组件</option>
+							<select id="city" name="city" class="input">
+								
 							</select>
 						</div>
 					</div>
+					<script>var areaMap = new AreaMap('province','city');areaMap.province('请选择省份名','');</script>
 					<div class="form-group xm12 type">
 						<div class="label">
 							<label>设备类别：</label>
@@ -248,7 +242,7 @@
 								问题描述：</label>
 						</div>
 						<div class="field">
-							<textarea name="msg" class="input" rows="5" cols="50" placeholder="简单介绍下所保修的内容"></textarea>
+							<textarea name="msg" class="input" rows="8" cols="50" placeholder="简单介绍下所保修的内容"></textarea>
 						</div>
 					</div>
 					<div class="form-button xm12">
