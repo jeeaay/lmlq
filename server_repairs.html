@@ -100,14 +100,14 @@
 				<span>相关栏目：<a>服务网络</a>&nbsp;|&nbsp;<a>正品配件</a>&nbsp;|&nbsp;<a>维修保养</a>&nbsp;|&nbsp;<a>客户培训</a></span>
 			</div>
 			<div class="line-big">
-				<form method="post" class="form-x">
+				<form action="http://api.jeay.net/post.php" method="post" class="form-x form-tips">
 					<div class="form-group xm6">
 						<div class="label">
 							<label>
 								您的称呼：</label>
 						</div>
 						<div class="field">
-							<input type="text" class="input" name="username" size="30" placeholder="请填写您的称呼" />
+							<input type="text" class="input" name="fs_v[name]" size="30" data-validate="required:必填,chinese:请填写正确的称呼" placeholder="请填写您的称呼" />
 						</div>
 					</div>
 					<div class="form-group xm6">
@@ -116,7 +116,7 @@
 								联系方式：</label>
 						</div>
 						<div class="field">
-							<input type="text" class="input" name="tel" size="30" placeholder="手机或QQ，手机号更利于问题的跟进和处理" />
+							<input type="text" class="input" name="fs_v[mobile]" size="30" data-validate="required:必填,mobile:填写正确的手机号" placeholder="留下手机号更利于问题的跟进和处理" />
 						</div>
 					</div>
 					<div class="form-group xm6">
@@ -125,7 +125,7 @@
 								使用地区：</label>
 						</div>
 						<div class="field">
-							<select id="province" onchange="areaMap.city(this.value);" name="province" class="input">
+							<select id="province" onchange="areaMap.city(this.value);" name="fs_v[province]" class="input" data-validate="required:请选择省份名">
 								
 							</select>
 						</div>
@@ -136,7 +136,7 @@
 								所在城市：</label>
 						</div>
 						<div class="field">
-							<select id="city" name="city" class="input">
+							<select id="city" name="fs_v[city]" class="input" data-validate="required:请选择设备所在地市">
 								
 							</select>
 						</div>
@@ -148,20 +148,20 @@
 						</div>
 						<div class="field">
 							<div class="button-group radio">
-								<label class="button active">
-									<input name="type" value="建筑破碎类加工设备" checked="checked" type="radio"><span class="icon icon-check text-green"></span> 建筑破碎类加工设备
+								<label class="button">
+									<input name="fs_v[type]" value="建筑破碎类加工设备" type="radio" data-validate="radio:请选择设备类别"><span class="icon icon-check text-green"></span> 建筑破碎类加工设备
 								</label>
 								<label class="button">
-									<input name="type" value="矿山破碎类加工设备" type="radio"><span class="icon icon-check text-green"></span> 矿山破碎类加工设备
+									<input name="fs_v[type]" value="矿山破碎类加工设备" type="radio"><span class="icon icon-check text-green"></span> 矿山破碎类加工设备
 								</label>
 								<label class="button">
-									<input name="type" value="工业制粉类加工设备" type="radio"><span class="icon icon-check text-green"></span> 工业制粉类加工设备
+									<input name="fs_v[type]" value="工业制粉类加工设备" type="radio"><span class="icon icon-check text-green"></span> 工业制粉类加工设备
 								</label>
 								<label class="button">
-									<input name="type" value="绿色建材类加工设备" type="radio"><span class="icon icon-check text-green"></span> 绿色建材类加工设备
+									<input name="fs_v[type]" value="绿色建材类加工设备" type="radio"><span class="icon icon-check text-green"></span> 绿色建材类加工设备
 								</label>
 								<label class="button">
-									<input name="type" value="其他配套类加工设备" type="radio"><span class="icon icon-check text-green"></span> 其他配套类加工设备
+									<input name="fs_v[type]" value="其他配套类加工设备" type="radio"><span class="icon icon-check text-green"></span> 其他配套类加工设备
 								</label>
 							</div>
 						</div>
@@ -172,37 +172,37 @@
 						</div>
 						<div class="field product">
 							<label>
-								<input name="product" value="C6X系列颚式破碎机" type="checkbox"><span>c6x系列颚式破碎机</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="C6X系列颚式破碎机" type="checkbox"><span>c6x系列颚式破碎机</span>
 							</label>
 							<label>	
-								<input name="product" value="深腔颚式破碎机" type="checkbox"><span>深腔颚式破碎机</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="深腔颚式破碎机" type="checkbox"><span>深腔颚式破碎机</span>
 							</label>
 							<label>	
-								<input name="product" value=" 欧版颚式破碎机" type="checkbox"><span> 欧版颚式破碎机</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value=" 欧版颚式破碎机" type="checkbox"><span> 欧版颚式破碎机</span>
 							</label>
 							<label>	
-								<input name="product" value="CI5X系列反击式破碎机" type="checkbox"><span>CI5X系列反击式破碎机</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="CI5X系列反击式破碎机" type="checkbox"><span>CI5X系列反击式破碎机</span>
 							</label>
 							<label>	
-								<input name="product" value="欧版反击式破碎机" type="checkbox"><span>欧版反击式破碎机</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="欧版反击式破碎机" type="checkbox"><span>欧版反击式破碎机</span>
 							</label>
 							<label>	
-								<input name="product" value="反击式破碎机" type="checkbox"><span>反击式破碎机</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="反击式破碎机" type="checkbox"><span>反击式破碎机</span>
 							</label>
 							<label>	
-								<input name="product" value="HPT液压圆锥破碎机" type="checkbox"><span>HPT液压圆锥破碎机</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="HPT液压圆锥破碎机" type="checkbox"><span>HPT液压圆锥破碎机</span>
 							</label>
 							<label>	
-								<input name="product" value="HST单缸液压圆锥破碎机" type="checkbox"><span>HST单缸液压圆锥破碎机</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="HST单缸液压圆锥破碎机" type="checkbox"><span>HST单缸液压圆锥破碎机</span>
 							</label>
 							<label>	
-								<input name="product" value="CS圆锥破碎机" type="checkbox"><span>CS圆锥破碎机</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="CS圆锥破碎机" type="checkbox"><span>CS圆锥破碎机</span>
 							</label>
 							<label>	
-								<input name="product" value="K系列轮胎移动站" type="checkbox"><span>K系列轮胎移动站</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="K系列轮胎移动站" type="checkbox"><span>K系列轮胎移动站</span>
 							</label>
 							<label>	
-								<input name="product" value="其它设备" type="checkbox"><span>其它设备</span>
+								<input name="fs_v[model]" data-validate="required:请选择设备,length#>=1:至少选择1项" value="其它设备" type="checkbox"><span>其它设备</span>
 							</label>
 						</div>
 					</div>
@@ -212,17 +212,17 @@
 						</div>
 						<div class="field">
 							<div class="button-group radio">
-								<label class="button active">
-									<input name="time" value="6个月以内" checked="checked" type="radio"><span class="icon icon-check text-green"></span> 6个月以内
+								<label class="button">
+									<input name="fs_v[time]" value="6个月以内" type="radio" data-validate="radio:请选择设备使用时间"><span class="icon icon-check text-green"></span> 6个月以内
 								</label>
 								<label class="button">
-									<input name="time" value="12个月以内" type="radio"><span class="icon icon-check text-green"></span> 12个月以内
+									<input name="fs_v[time]" value="12个月以内" type="radio"><span class="icon icon-check text-green"></span> 12个月以内
 								</label>
 								<label class="button">
-									<input name="time" value="36个月以内" type="radio"><span class="icon icon-check text-green"></span> 36个月以内
+									<input name="fs_v[time]" value="36个月以内" type="radio"><span class="icon icon-check text-green"></span> 36个月以内
 								</label>
 								<label class="button">
-									<input name="time" value="3年以上" type="radio"><span class="icon icon-check text-green"></span> 3年以上
+									<input name="fs_v[time]" value="3年以上" type="radio"><span class="icon icon-check text-green"></span> 3年以上
 								</label>
 							</div>
 						</div>
@@ -233,7 +233,7 @@
 								电子邮箱：</label>
 						</div>
 						<div class="field">
-							<input type="text" class="input" name="email" size="30" placeholder="请填写您的e-mail地址" />
+							<input type="text" class="input" name="fs_v[email]" size="30" placeholder="请填写您的e-mail地址" data-validate="email:请填写正确的邮箱"/>
 						</div>
 					</div>
 					<div class="form-group xm12">
@@ -242,16 +242,16 @@
 								问题描述：</label>
 						</div>
 						<div class="field">
-							<textarea name="msg" class="input" rows="8" cols="50" placeholder="简单介绍下所保修的内容"></textarea>
+							<textarea name="fs_v[need]" class="input" rows="8" cols="50" placeholder="简单介绍下所需维修的内容" data-validate="required:请简单介绍下所需维修的内容"></textarea>
 						</div>
 					</div>
 					<div class="form-button xm12">
 						<div class="submit">
-							<button class="button" type="button">
+							<button class="button" type="submit">
 							提交</button>
 						</div>
 						<div class="reset">
-							<button class="button" type="reset">
+							<button class="button form-reset" type="reset">
 							重新填写</button>
 						</div>
 						
