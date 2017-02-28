@@ -608,6 +608,8 @@
 	.repair .form-button{margin-left: 7.308%;padding-left: 11px;}
 }
 #server .upkeep h2{padding: 37px 0 25px;font-size: 24px;}
+#server .upkeep .install h2,#server .upkeep .fix h2{padding: 22px 0 25px}
+
 #server .upkeep h2 small{font-size: 18px;opacity:1;}
 .upkeep{padding-bottom: 32px;}
 .upkeep ol{padding-left: 2em;}
