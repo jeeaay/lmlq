@@ -391,7 +391,7 @@
 #solution .parts_name{position: absolute;display: block;width: 100%;left: 0;bottom: 0;padding: 0 10px}
 #solution .parts_name p{width: 100%;text-align: center;color: #fff;background-color: rgba(0,0,0,.66);line-height: 39px;}
 @media (min-width: 760px){
-	#solution .first a{margin: 24px 0 0}
+	#solution .first a{margin: 0}
 	#solution .first h2{padding: 26px 0 10px}
 	#solution .first div{padding:0 20px 30px}
 }
