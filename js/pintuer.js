@@ -5,4 +5,3 @@ pager.find("li").click(function(){$showbanner(e,$(this).val(),items,num)});var l
 window.res_img=$("img.res");window.w_width=$(window).width();res_img.each(function(){var img_src=isNotEmpty($(this).attr("data-xb"))?$(this).attr("data-xb"):isNotEmpty($(this).attr("data-xm"))?$(this).attr("data-xm"):isNotEmpty($(this).attr("data-xs"))?$(this).attr("data-xs"):isNotEmpty($(this).attr("data-xm"))?$(this).attr("data-xm"):"";if(w_width<1200&&w_width>999&&isNotEmpty($(this).attr("data-xm"))){img_src=$(this).attr("data-xm")}if(w_width<1000&&w_width>759&&isNotEmpty($(this).attr("data-xs"))){img_src=$(this).attr("data-xs")}if(w_width<760&&isNotEmpty($(this).attr("data-xl"))){img_src=$(this).attr("data-xl")};if(isNotEmpty(img_src)){$(this).attr('src',img_src)}})});
 var isNotEmpty=function(strVal){if(strVal==''||strVal==null||strVal==undefined){return false}else{return true}
 $(".img-scale").css({"width":$(".img-scale").width(),"height":$(".img-scale").height()});}
-
