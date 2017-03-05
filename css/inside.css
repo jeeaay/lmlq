@@ -185,10 +185,9 @@
 	.weekly_title_l h2{font-size: 27px;font-weight: 100;padding: 15px 0 0 20px}
 	
 }
-@media (min-width:1000px){
-	.weekly_title{padding-top: 48px}
+@media (min-width:760px){
+	.weekly_title_l{padding-bottom: 50px;}
 }
-.last_weekly{padding-top: 50px}
 .last_weekly a{color: #3a3a3a}
 .last_weekly span,.last_weekly h2:hover{color: #d40000}
 .last_weekly .h2{padding: 12px 0}
@@ -404,15 +403,15 @@
 .parts ul img{width: 100%}
 .parts ul p{padding: 16px 0 28px;text-align: center;}
 
-#server .inside h1{font-size: 24px;padding-bottom: 7px}
-#server .inside .inside_list_title{padding: 12px 0 0}
-#server .inside .inside_list_title span{padding: 2px 0 8px;display: block;}
-#server .inside h2{padding: 25px 0 10px}
-#server .inside p{line-height: 28px;}
-#server .inside .breadcrumb{padding-top: 36px;}
+.s_list h1{font-size: 24px;padding-bottom: 7px}
+.s_list .inside_list_title{padding: 12px 0 0}
+.s_list .inside_list_title span{padding: 2px 0 8px;display: block;}
+.s_list h2{padding: 25px 0 10px}
+.s_list p{line-height: 28px;}
+.s_list .breadcrumb{padding-top: 36px;}
 @media (min-width: 760px){
-	#server .inside h1{padding-bottom: 17px}
-	#server .inside .inside_list_title span{padding: 21px 0 5px;display: inline;}
+	.s_list h1{padding-bottom: 17px}
+	.s_list .inside_list_title span{padding: 21px 0 5px;display: inline;}
 }
 .network .map img{margin: 0 auto}
 @media (min-width: 1000px){
