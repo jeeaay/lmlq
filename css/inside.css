@@ -634,3 +634,44 @@
 @media (min-width:1000px){
 	.upkeep .getpdf,.upkeep .getall{font-size: 20px;}
 }
+/**solution**/
+.solu h2{padding:10px 0 20px}
+.solu .ap li{margin-bottom:24px;text-align:center}
+.solu .ap li p{display:block;margin-top:10px;height:46px;border:1px solid #cfcfcf;line-height:44px}
+.solu .cas li,.solu .mat li{margin-bottom:20px}
+.solu .cas li a{position:relative;display:block;width:100%}
+.solu .cas li p{position:absolute;bottom:0;display:block;width:100%;height:34px;background-color:#ef011c;line-height:34px;opacity:.8;color:#fff}
+.solu .mo a{display: block;width: 100%;background-color: #EF011C;color: #fff}
+.solu .mo div{position: absolute;top: 34%;width: 100%;}
+@media (min-width:450px){
+	.solu .mo div{top: 28%;}
+}
+@media (min-width:550px){
+	.solu .mo div{top: 32%;}
+}
+@media (min-width:650px){
+	.solu .mo div{top: 35%;}
+}
+@media (min-width:1000px){
+	.solu .mo div{top: 33%;}
+}
+.solu .mo a h4{font-size: 20px;padding-bottom: 14px;}
+.solu .mo a h5{font-size: 14px;}
+.solu .mo a span{font-weight: 100;}
+.solu .lin h3{padding:9px 0 12px;font-weight:100}
+.solu .lin li a{display:block;margin-bottom:17px;width:100%;height:46px;border:1px solid #cfcfcf;line-height:46px}
+.solu .mat h2{padding:20px 0}
+.solu .img-scale{border-radius:50%}
+.solu .sca a{position:relative;display:block;overflow:hidden;border-radius:50%;background:#fff}
+.solu .sca p{position:absolute;bottom:-120px;display:block;padding-top:12px;width:100%;height:170px;border-radius:50%;background-color:#030303;color:#fff;opacity:.8;-moz-transition:all .3s ease 0s;-o-transition:all .3s ease 0s;transition:all .3s ease 0s;-ms-transition:all .3s ease 0s}
+.solu .sca:hover p{background-color:#ef011c;color:#FFF;opacity:1}
+.solu .mor a{position:relative;display:block;width:100%;border-radius:50%;background-color:#ef011c;color:#FFF}
+.solu .mor div{position:absolute;top:36%;width:100%}
+.solu .mor i{font-size:36px;-moz-transition:all .3s ease 0s;-o-transition:all .3s ease 0s;transition:all .3s ease 0s;-ms-transition:all .3s ease 0s}
+.solu .mor:hover i{font-size:50px}
+.solu .link{margin:20px 0 64px}
+.solu .link h4{display:inline;color:#ef011c}
+@media (min-width:1200px){.solu .mat h2{padding:20px 0 30px}
+.solu .cas li,.solu .mat li{margin-bottom:30px}
+.solu .mor div{top:28%}
+}
