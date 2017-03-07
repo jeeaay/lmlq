@@ -32,6 +32,7 @@ nav .nav-inline li a{padding:5px 13px}
 @media (min-width:1200px){nav .nav-inline{margin:39px -21px 0;font-size:18px}
 nav .nav-inline li a{padding:5px 21px}
 }
+footer{font-size: 14px;}
 footer .fast-menu{background-color:#db1000}
 footer .fast-menu a{color:#fff;line-height:66px}
 footer .fast-menu .float-left a,footer .fast-menu .float-left a i{margin-right:5px}
