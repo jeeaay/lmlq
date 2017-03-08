@@ -181,9 +181,88 @@
 					<img class="res img-res" data-xb="./img/about/index_c.jpg">
 				</div>
 			</section>
-			<section class="d">
+			<section class="d container">
 				<h2 class="text-center a_title">企业年鉴</h2>
-				
+				<div class="line-big">
+					<div class="xm3 l">
+						<div>
+							<img class="res img-responsive" data-xl="./img/about/index_d_xl.jpg" data-xs="./img/about/index_d_xl.jpg" data-xb="./img/about/index_d_xm.jpg" >
+						</div>
+					</div>
+					<div class="xm9 r">
+						<ul class="list-unstyle">
+							<li class="active">
+								<div>
+									<h3>1987-2003</h3>
+									<p>1987年 郑州黎明机械制造有限公司成立</p>
+									<p>1995年 乔迁至郑州国家高新技术产业开发区</p>
+									<p>1996年 上海工业园区建成并顺利投产</p>
+									<p>2001年 第一台出口设备在哈萨克斯坦调试成功，开启国际化征程</p>
+									<p>2003年 更名为河南黎明路桥重工有限公司</p>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>2004-2008</h3>
+									<p>2004年 启动大学生人才战略，产品率先通过ISO9001:2000质量管理体系认证</p>
+									<p>2005年 黎明机械研究所成立，当选中国砂石协会常务理事单位</p>
+									<p>2006年 集团公司五大中心成立，实现集团化管理模式</p>
+									<p>2007年 成为国内首家同类产品通过欧盟CE认证的企业</p>
+									<p>2008年 成功推出高附加值产品移动破碎站、欧版磨和立式辊磨</p>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>2009-2013</h3>
+									<p>2009年 更名为黎明重工科技股份有限公司，上街工业园区投入使用</p>
+									<p>2010年 集团公司销售额首次突破10亿元人民币</p>
+									<p>2011年 乔迁新总部基地，成为同行业硬件实力最优越、生产加工能力最强、科研力量最领先的企业</p>
+									<p>2012年 获评国家级高新技术企业，磨机产品质量万里行活动正式启动，全部产品通过俄罗斯GOST质量认证</p>
+									<p>2013年 当选装备制造业协会理事单位和中国砂石协会骨干企业，第一条海外智能砂石生产线在沙特阿拉伯调试成功</p>
+								</div>
+							</li>
+							<li>
+								<div>
+									<h3>2014-2016</h3>
+									<p>2014年 3月销售额刷新单月销售成交额历史记录，世界最大履带移动筛分站在上街工业园成功交付，推出全球领先的VU砂石骨料系统</p>
+									<p>2015年 成为全国矿山机械标准委员会第五届委员，承办中国碳酸钙行业专家组会议</p>
+									<p>2016年 通过知识产权管理体系认证，全年重磅推出七大新品，产品体系更加完善 </p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+					<div class="year">
+						<ul class="list-unstyle text-center">
+							<div class="clearfix">
+								<li class="xs3">
+									<span></span>
+									<p>1987-2003年</p>
+								</li>
+								<li class="xs3">
+									<span></span>
+									<p>2004-2008年</p>
+								</li>
+								<li class="xs3">
+									<span></span>
+									<p>2009-2013年</p>
+								</li>
+								<li class="xs3">
+									<span></span>
+									<p>2014-2016年</p>
+								</li>
+							</div>
+						</ul>
+					</div>
+				</div>
+				<script>
+				$(function() {
+					$(".abo .year").on("click","li",function () {
+						$(".abo .d .r li").hide();
+						$(".abo .d .r li").eq($(this).index()).show();
+					})
+				});
+				</script>
 			</section>
 
 		</article>
