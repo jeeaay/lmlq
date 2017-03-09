@@ -632,7 +632,8 @@ body p{font-size: 16px;}
 }
 .abo .d .r h3{font-size: 32px;margin:20px 0 5px}
 .abo .d .r p{color: #848383;line-height: 30px;}
-.abo .year span{width: 19px;height: 19px;border-radius: 50%;display: block;border:6px solid #ef8c19;position: absolute;background-color: #fff;cursor: pointer;}
+.abo .year span{width: 19px;height: 19px;border-radius: 50%;display: block;border:6px solid #e8e8e8;position: absolute;background-color: #fff;cursor: pointer;}
+.abo .year .active span{border-color: #ef8c19}
 .abo .year div{position: relative;padding: 10px 0;margin: 10px 0}
 
 .abo .year p{margin: 12px 0;cursor: pointer;}
@@ -656,7 +657,7 @@ body p{font-size: 16px;}
 }
 @media (min-width: 1200px){
 	.abo .d .r h3{font-size: 48px;}
-	.abo .d .r p{line-height: 47px;}
+	.abo .d .r p{line-height: 47px;padding-left: 8px;}
 	.abo .d .year {padding-top: 123px;}
 	.abo .year span{left: 142px;bottom: 60px}
 	.abo .year div{padding-top: 20px;}

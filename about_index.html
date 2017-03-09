@@ -234,8 +234,8 @@
 					<div class="clearfix"></div>
 					<div class="year">
 						<ul class="list-unstyle text-center">
-							<div class="clearfix">
-								<li class="xs3">
+							<div class="<clearfix></clearfix>">
+								<li class="xs3 active">
 									<span></span>
 									<p>1987-2003年</p>
 								</li>
@@ -258,8 +258,10 @@
 				<script>
 				$(function() {
 					$(".abo .year").on("click","li",function () {
-						$(".abo .d .r li").hide();
-						$(".abo .d .r li").eq($(this).index()).show();
+						$(".abo .year li.active").removeClass('active');
+						$(".abo .d .r li.active").removeClass('active');
+						$(".abo .d .r li").eq($(this).index()).addClass('active');
+						$(".abo .year li").eq($(this).index()).addClass('active');
 					})
 				});
 				</script>
