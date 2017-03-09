@@ -562,13 +562,31 @@ body p{font-size: 16px;}
 .solu .link h4{display:inline;color:#ef011c}
 @media (min-width:1200px){.solu .mat h2{padding:20px 0 30px}
 .solu .cas li,.solu .mat li{margin-bottom:30px}
-.solu .mor div{top:28%}
+.solu .mor div{top:28%;}
 }
 
-.abo .a_title{position: relative;display: block;width: 4em;margin: 0 auto;font-size: 34px;color: #474747;padding-bottom: 26px;margin-bottom: 21px;}
+
+.sec-nav ul{width: 100%;background-color:hsla(0,0%,100%,.68);bottom:0}
+.sec-nav li{width: 49%;height: 34px;overflow: hidden;}
+.sec-nav a{display: block;padding: 7px 0;color: #333;-moz-transition:all .3s ease 0s;-o-transition:all .3s ease 0s;transition:all .3s ease 0s;-ms-transition:all .3s ease 0s;text-align: center;}
+.sec-nav .active a,.sec-nav a:hover{font-size: 18px;}
+@media (min-width: 450px){
+	.sec-nav li{width:24%;}
+}
+@media (min-width: 760px){
+	.sec-nav li{width:13.8%;height: 48px;}
+	.sec-nav div{position: relative;}
+	.sec-nav ul{position: absolute;height: 48px;}
+	.sec-nav a{padding: 14px 0}
+}
+@media (min-width: 1000px){
+	.sec-nav ul{padding: 0 30px;}
+}
+
+#about .a_title{position: relative;display: block;width: 4em;margin: 0 auto;font-size: 34px;color: #474747;padding-bottom: 26px;margin-bottom: 21px;}
 .abo .a_p{line-height: 32px;margin: 4px 0 22px;color: #848383}
-.abo .a_title:after{height: 3px;overflow: hidden;background-color: #d43341;left: 50%;bottom: 0;position: absolute; content: "";-webkit-transition: all 0.3s ease;transition: all 0.3s ease;margin-left: -25%;width: 50%;}
-.abo .a_title:hover:after{margin-left: -50%;width: 100%;}
+#about .a_title:after{height: 3px;overflow: hidden;background-color: #d43341;left: 50%;bottom: 0;position: absolute; content: "";-webkit-transition: all 0.3s ease;transition: all 0.3s ease;margin-left: -25%;width: 50%;}
+#about .a_title:hover:after{margin-left: -50%;width: 100%;}
 .abo .pos {position: relative;color: #fff}
 .abo .pos div{opacity: .9;position: absolute;width: 100%;height: 100%;top: 0;padding: 30px 0 0;-webkit-transition: all 0.3s ease;transition: all 0.3s ease;}
 .abo .pos h3{font-size: 30px;text-align: center;}
