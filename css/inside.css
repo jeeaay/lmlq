@@ -341,7 +341,7 @@ article p{font-size: 16px;}
 @media (min-width:760px){.s_list h1{padding-bottom:17px}
 .s_list .inside_list_title span{display:inline;padding:21px 0 5px}
 }
-.network .map img{margin:0 auto}
+.map img{margin:0 auto}
 @media (min-width:1000px){.network .map{margin-top:-44px}
 }
 .network_contact{margin-top:21px;background-color:#dc343a;color:#fff}
@@ -349,9 +349,10 @@ article p{font-size: 16px;}
 .network_contact .l p{padding:2px 30px 5px}
 .network_contact .r p{padding-top:21px;font-weight:700}
 .network_contact .r{margin:24px 26px;padding:23px;border:1px solid #fff}
-.global .r{padding:15px 18px}
-.global h2{position:relative;padding-top:54px}
-.global h3{padding-bottom:10px}
+.network_contact .r{padding:15px 18px}
+.network_contact h2{position:relative;padding-top:54px}
+.network_contact h3{padding-bottom:10px}
+.network .contact{margin-top: 30px;}
 .network_contact li{float:left;padding:6px 2px 12px;width:50%;min-width:155px;font-weight:100;font-size:14px}
 @media (min-width:760px){.network_contact .l h3{padding:27px 0 14px 58px}
 .network_contact .l p{padding:3px 0 45px 58px}
@@ -708,6 +709,7 @@ article p{font-size: 16px;}
 #b_img{position:fixed;top: 50px;display: none;width: 100%;z-index: 10;}
 #b_img img{max-width: 100%;padding: 20px;margin: 0 auto;display: block;}
 #about h1.b_title{font-size: 30px;margin: 30px 0 20px;}
+#about h2.b_title{font-size: 24px;margin: 26px 0 15px;}
 .hist {padding-bottom: 20px;}
 .hist h4{font-size: 22px;margin: 10px 0 }
 .hist h5{font-size: 16px;font-weight: bold;margin: 10px 0 0}
@@ -726,8 +728,11 @@ article p{font-size: 16px;}
 	.hist .box .r{width: 95%;}
 	.hist .box .r p{padding: 0 44px 5px 50px}
 }
+.glo .pic img{width: 100%;display: block;padding-bottom: 20px;}
+.glo .pic .line-big{padding-top: 5px;}
 @media (min-width: 1200px){
 	.hist .box .l{width:5.556%;margin-left: 20px;}
 	.hist .box .r{width: 90%;}
 	.hist .box .r p{padding: 0 50px 5px 150px}
+	.glo .pic img{padding-bottom: 30px;}
 }
