@@ -143,7 +143,43 @@
 					<ul class="list-unstyle">
 						<li class="xl6 xm4">
 							<div class="pos_a">
-								<img src="./img/about/honor_s1.jpg" data-src="img/about/honor_s1.jpg">
+								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>中国砂石协会常务理事单位</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>中国砂石协会常务理事单位</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>中国砂石协会常务理事单位</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>中国砂石协会常务理事单位</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
 								<div class="pos_b">
 									<i class="icon icon-search-plus" aria-hidden="true"></i>
 									<h4>中国砂石协会常务理事单位</h4>
@@ -157,14 +193,28 @@
 				</div>
 			</div>
 			<div class="dialog-mask"></div>
+			<div id="b_img">
+				<img>
+			</div>
 			<script>
-				$(".hon ul").on('click', 'li', function() {
-					console.log($(this).find('img').attr("data-src"));
-					$(".dialog-mask").show();
-				});
-				$(".dialog-mask").click(function() {
-					$(this).hide();
-				});
+				function close() {
+					$(".dialog-mask").hide();
+					$("#b_img").hide();
+					$("#b_img img").attr("src","");
+				}
+				$(function() {
+					$(".hon ul").on('click', 'li', function() {
+						$(".dialog-mask").show();
+						$("#b_img img").attr("src",$(this).find('img').attr("data-src"));
+						$("#b_img").show();
+					});
+					$(".dialog-mask").click(function() {
+						close();
+					});
+					$("#b_img").click(function() {
+						close();
+					});
+				})
 			</script>
 		</article>
 	</div>
