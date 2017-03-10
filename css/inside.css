@@ -650,8 +650,8 @@ article p{font-size: 16px;}
 }
 .abo .d .r h3{font-size: 32px;margin:20px 0 5px}
 .abo .d .r p{color: #848383;line-height: 30px;}
-.abo .year span{width: 19px;height: 19px;border-radius: 50%;display: block;border:6px solid #e8e8e8;position: absolute;background-color: #fff;cursor: pointer;}
-.abo .year .active span{border-color: #ef8c19}
+#about .history-dot{width: 19px;height: 19px;border-radius: 50%;display: block;border:6px solid #e8e8e8;position: absolute;background-color: #fff;cursor: pointer;}
+#about .active .history-dot{border-color: #ef8c19}
 .abo .year div{position: relative;padding: 10px 0;margin: 10px 0}
 
 .abo .year p{margin: 12px 0;cursor: pointer;}
@@ -707,3 +707,27 @@ article p{font-size: 16px;}
 
 #b_img{position:fixed;top: 50px;display: none;width: 100%;z-index: 10;}
 #b_img img{max-width: 100%;padding: 20px;margin: 0 auto;display: block;}
+#about h1.b_title{font-size: 30px;margin: 30px 0 20px;}
+.hist {padding-bottom: 20px;}
+.hist h4{font-size: 22px;margin: 10px 0 }
+.hist h5{font-size: 16px;font-weight: bold;margin: 10px 0 0}
+@media (min-width: 760px){
+	.hist h4{margin: 27px 0 23px;}
+	.hist h5{font-weight: 100;margin:0;color: #a3a3a3;position: relative;bottom: 5px}
+	.hist .box p{position: relative;bottom: 8px}
+	.hist .box div{float: left;}
+	.hist .box .l{width: 6%;}
+	.hist .box .r{width: 90%;border-left: 1px solid #a3a3a3;position: relative;padding-bottom: 10px;}
+	.hist .box .r:before{content: "";display: block;position: absolute;width: 11px;height: 11px;background-color: #ff6700;border-radius: 50%;left: -6px;top:0}
+	.hist .box .r p{display: block;padding: 0 30px 5px;line-height: 30px;}
+}
+@media (min-width: 1000px){
+	.hist .box .l{width: 5%;}
+	.hist .box .r{width: 95%;}
+	.hist .box .r p{padding: 0 44px 5px 50px}
+}
+@media (min-width: 1200px){
+	.hist .box .l{width:5.556%;margin-left: 20px;}
+	.hist .box .r{width: 90%;}
+	.hist .box .r p{padding: 0 50px 5px 150px}
+}
