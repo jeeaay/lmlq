@@ -552,7 +552,7 @@ article p{font-size: 16px;}
 .solu .lin li a{display:block;margin-bottom:17px;width:100%;height:46px;border:1px solid #cfcfcf;line-height:46px}
 .solu .mat h2{padding:20px 0}
 .solu .img-scale{border-radius:50%}
-.solu .sca a{position:relative;display:block;overflow:hidden;border-radius:50%;background:#fff}
+.solu .sca a{position:relative;display:block;overflow:hidden;border-radius:50%;background:#fff;z-index:1;}
 .solu .sca p{position:absolute;bottom:-120px;display:block;padding-top:12px;width:100%;height:170px;border-radius:50%;background-color:#030303;color:#fff;opacity:.8;-moz-transition:all .3s ease 0s;-o-transition:all .3s ease 0s;transition:all .3s ease 0s;-ms-transition:all .3s ease 0s}
 .solu .sca:hover p{background-color:#ef011c;color:#FFF;opacity:1}
 .solu .mor a{position:relative;display:block;width:100%;border-radius:50%;background-color:#ef011c;color:#FFF}
