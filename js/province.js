@@ -13,7 +13,7 @@ var AreaMap = function(provinceid,cityid){
     var provincename;
     
     var map = new Array(35);
-        map[0]= new comefrom("请选择","请选择");
+        map[0]= new comefrom("请选择省","请选择市");
         map[1] = new comefrom("北京","东城|西城|崇文|宣武|朝阳|丰台|石景山|门头沟|房山|通州|顺义|昌平|大兴|平谷|怀柔|密云|延庆"); 
         map[2] = new comefrom("上海","黄浦|卢湾|徐汇|长宁|静安|普陀|闸北|虹口|杨浦|闵行|宝山|嘉定|浦东|金山|松江|青浦|南汇|奉贤|崇明"); 
         map[3] = new comefrom("天津","和平|东丽|河东|西青|河西|津南|南开|北辰|河北|武清|红挢|塘沽|汉沽|大港|宁河|静海|宝坻|蓟县"); 
