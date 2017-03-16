@@ -190,7 +190,7 @@
 				<h2 class="text-center a_title">国家专利</h2>
 				<p class="text-center a_p">有效国家专利106件，其中发明专利4件，外观专利12件，实用新型专利90件</p>
 				<ul class="list-unstyle">
-					<li>用于磨粉机的曲面铲刀专利号：ZL 2009 2 0092361.8<span>>>查看证书</span></li>
+					<li data-src="./img/about/factory1.jpg">用于磨粉机的曲面铲刀专利号：ZL 2009 2 0092361.8<span>>>查看证书</span></li>
 					<li>低阻力悬辊磨曲面风道专利号：200920088889.8<span>>>查看证书</span></li>
 					<li>离心冲击式破碎机 专利号：200930117581.7<span>>>查看证书</span></li>
 					<li>立轴冲击式破碎机组合式抛料头专利号：200920088888.3<span>>>查看证书</span></li>
@@ -202,6 +202,33 @@
 					<li>高压悬辊磨粉机专利号：ZL 00234815.2<span>>>查看证书</span></li>
 				</ul>
 			</section>
+			<div class="dialog-mask"></div>
+			<div id="b_img">
+				<img>
+			</div>
+			<script>
+				$(function() {
+					var obj_imgBox = $("#b_img");
+					var obj_img = $("#b_img img");
+					var obj_parent = $(".patent ul");
+					obj_parent.on('click', 'li', function() {
+						$(".dialog-mask").show();
+						obj_img.attr("src",$(this).attr("data-src"));
+						obj_imgBox.show();
+					});
+					$(".dialog-mask").click(function() {
+						close();
+					});
+					obj_imgBox.click(function() {
+						close();
+					});
+					function close() {
+						$(".dialog-mask").hide();
+						obj_imgBox.hide();
+						obj_img.attr("src","");
+					}
+				})
+			</script>
 		</article>
 	</div>
 		

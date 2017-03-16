@@ -704,7 +704,7 @@ article p{font-size: 16px;}
 	.hon .pos_b i:before{padding: 70px 20px 10px;}
 	.hon .pos_b h4{font-size: 24px;margin-top: 20px;}
 }
-.hon .dialog-mask{display: none}
+.hon .dialog-mask,.rese .dialog-mask{display: none}
 
 #b_img{position:fixed;top: 50px;display: none;width: 100%;z-index: 10;}
 #b_img img{max-width: 100%;padding: 20px;margin: 0 auto;display: block;}
@@ -826,7 +826,8 @@ article p{font-size: 16px;}
 	.rese .pic div{padding-bottom: 30px;}
 }
 #about .rese .patent .a_p{color: #333}
-.rese .patent li{line-height: 32px;font-size: 16px;word-break:break-all;}
+.rese .patent li{line-height: 32px;font-size: 16px;word-break:break-all;
+	cursor: pointer;}
 .rese .patent li span{display: inline-block;color: #d40000;float: right;}
 @media (max-width:999px){
 .rese .patent li{clear: both;}
@@ -837,5 +838,5 @@ article p{font-size: 16px;}
 @media (min-width:1200px){
 .rese .patent{padding-bottom: 50px;}
 .rese .patent ul{margin: 0 -15px}
-.rese .patent li{width: 50%;float: left;padding: 0 15px 11px}
+.rese .patent li{width: 50%;float: left;padding: 0 15px;margin-bottom: 12px;}
 }

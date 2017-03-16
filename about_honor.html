@@ -197,21 +197,24 @@
 				<img>
 			</div>
 			<script>
+				var obj_imgBox = $("#b_img");
+				var obj_img = $("#b_img img");
+				var obj_parent = $(".hon ul");
 				function close() {
 					$(".dialog-mask").hide();
-					$("#b_img").hide();
-					$("#b_img img").attr("src","");
+					obj_imgBox.hide();
+					obj_img.attr("src","");
 				}
 				$(function() {
-					$(".hon ul").on('click', 'li', function() {
+					obj_parent.on('click', 'li', function() {
 						$(".dialog-mask").show();
-						$("#b_img img").attr("src",$(this).find('img').attr("data-src"));
-						$("#b_img").show();
+						obj_img.attr("src",$(this).find('img').attr("data-src"));
+						obj_imgBox.show();
 					});
 					$(".dialog-mask").click(function() {
 						close();
 					});
-					$("#b_img").click(function() {
+					obj_imgBox.click(function() {
 						close();
 					});
 				})
