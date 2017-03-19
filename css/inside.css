@@ -691,6 +691,8 @@ article p{font-size: 16px;}
 .hon .pos_b{cursor: pointer;text-align: center;}
 .hon .pos_b i{display: none;}
 .hon .pos_b h4{margin: 10px 0 20px}
+.hon .comp li,.hon .prod li{padding: 10px}
+.hon .prod{display: none;}
 @media (min-width: 1000px){
 	.hon .pos_b i{display: inline;}
 	.hon .pos_a{position: relative;}
@@ -703,11 +705,12 @@ article p{font-size: 16px;}
 @media (min-width: 1200px){
 	.hon .pos_b i:before{padding: 70px 20px 10px;}
 	.hon .pos_b h4{font-size: 24px;margin-top: 20px;}
+	.hon .comp li,.hon .prod li{padding: 15px}
 }
 .hon .dialog-mask,.rese .dialog-mask{display: none}
 
 #b_img{position:fixed;top: 50px;display: none;width: 100%;z-index: 10;}
-#b_img img{max-width: 100%;padding: 20px;margin: 0 auto;display: block;}
+#b_img img{max-width: 100%;padding: 20px;margin: 0 auto;display: block;overflow: scroll;max-height:650px}
 #about h1.b_title{font-size: 30px;margin: 30px 0 20px;}
 #about h2.b_title{font-size: 24px;margin: 26px 0 15px;}
 .hist {padding-bottom: 20px;}
@@ -839,4 +842,33 @@ article p{font-size: 16px;}
 .rese .patent{padding-bottom: 50px;}
 .rese .patent ul{margin: 0 -15px}
 .rese .patent li{width: 50%;float: left;padding: 0 15px;margin-bottom: 12px;}
+}
+
+#container{width:100%}
+.meeting{position:relative}
+.meeting_fix{position:absolute;top:0;left:-10pc;z-index:1002;-webkit-transition:all .2s;transition:all .2s}
+.meeting_fix>div{height:100%;background:hsla(0,0%,91%,.66);text-align:center}
+.meeting_fix>i{position:absolute;top:44%;right:-22px;display:block;width:22px;height:98px;background-color:#363636;color:#fff;text-align:center;font-size:22px;line-height:98px;cursor:pointer}
+.meeting_fix.active>i:before{content:"\f104"}
+.meeting_fix.active{left:0}
+.meeting_ul{padding-top:5%}
+.meeting_ul>.active{background-color:#1982cf}
+.meeting_ul>.active>a{color:#fff}
+.meeting_ul li{border-bottom:1px solid hsla(0,0%,91%,.52)}
+.meeting_ul a{display:block;padding:3%;color:#372425;font-size:1.428571em;cursor:pointer}
+.meeting_text{position:absolute;right:0;bottom:0;z-index:1001;width:100%;background:rgba(37,37,37,.4);color:#fff;text-align:center}
+.meeting_text>div{margin:0 auto;width:80%}
+.meeting_text p{padding:15px 0;font-size:1em;line-height:1.3}
+.meeting_text i{margin-left:5px}
+.meeting_text span{display:inline-block;padding-bottom:15px;cursor:pointer}
+#move{position:absolute;top:23%;left:27%;z-index:1006}
+@media (max-height:750px){.meeting_logo{display:none}
+}
+@media (min-width:768px){
+.meeting_fix{width:15pc;left:-15pc}
+.meeting_fix>div{padding:10% 0 0}
+.meeting_logo{border:1px solid #fff;border-radius:50%;width:178px;height:178px;margin:0 auto 7%;padding:26px 0}
+.meeting_logo img{margin:0 auto}
+.meeting_logo p{margin-top:10px;font-weight:100}
+.meeting_logo h4{margin-top:5px}
 }
