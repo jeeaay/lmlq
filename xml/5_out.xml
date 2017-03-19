@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="">
+  <view fovmode="0" pannorth="0">
+    <start pan="0" fov="70" tilt="0"/>
+    <min pan="-180" fov="5" tilt="-34.96393790637006"/>
+    <max pan="180" fov="120" tilt="34.96393790637006"/>
+  </view>
+  <userdata title="" datetime="2016:05:26 09:56:01" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label width="180" backgroundalpha="1" enabled="1" height="20" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>
+  </hotspots>
+  <media/>
+  <input tile0url="/img/360/05_o_0.jpg" prev5url="/img/360/05_o_preview_5.jpg" prev4url="/img/360/05_o_preview_4.jpg" prev3url="/img/360/05_o_preview_3.jpg" prev2url="/img/360/05_o_preview_2.jpg" prev1url="/img/360/05_o_preview_1.jpg" prev0url="/img/360/05_o_preview_0.jpg" tile5url="/img/360/05_o_5.jpg" tilesize="3686" tile4url="/img/360/05_o_4.jpg" tile3url="/img/360/05_o_3.jpg" tilescale="1.002712967986978" tile2url="/img/360/05_o_2.jpg" tile1url="/img/360/05_o_1.jpg"/>
+  <altinput tile0url="/img/360/05_o_800_0.jpg" screensize="1000" tile5url="/img/360/05_o_800_5.jpg" tilesize="800" tile4url="/img/360/05_o_800_4.jpg" tile3url="/img/360/05_o_800_3.jpg" tilescale="1.002712967986978" tile2url="/img/360/05_o_800_2.jpg" tile1url="/img/360/05_o_800_1.jpg"/>
+  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="8"/>
+</panorama>
