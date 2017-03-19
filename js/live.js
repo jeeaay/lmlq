@@ -8,7 +8,6 @@ $(document).ready(function() {
       c_height=w_height-176;
     else
       c_height=w_height-c_top;
-      console.log(c_height);
     if (c_height<300) c_height=300;
     $("#container").height(c_height);
 
