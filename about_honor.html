@@ -61,9 +61,9 @@
 					<li>
 						<a href="solution_index.html" class="solution">解决方案</a>
 						<ul class="drop-menu">
-							<li><a href="javascript:alert('敬请期待...');./solution_construction.html">建筑破碎</a></li>
-							<li><a href="javascript:alert('敬请期待...');./solution_materials.html">绿色建材</a></li>
-                            <li><a href="javascript:alert('敬请期待...');./solution_mine.html">矿山破碎</a></li>
+							<li><a href="javascript:alert('敬请期待...');solution_construction.html">建筑破碎</a></li>
+							<li><a href="javascript:alert('敬请期待...');solution_materials.html">绿色建材</a></li>
+                            <li><a href="javascript:alert('敬请期待...');solution_mine.html">矿山破碎</a></li>
                             <li><a href="./solution_grinding.html">工业制粉</a></li>                      
                         </ul>
 					</li>
@@ -95,6 +95,7 @@
     						<li><a href="./about_history.html">企业年鉴</a></li>
     						<li><a href="./about_honor.html">荣誉殿堂</a></li>
     						<li><a href="./about_factory.html">工业园区</a></li>
+    						<li><a href="./about_live.html">全景视图</a></li>
     						<li><a href="./about_global.html">全球战略</a></li>
     						<li><a href="./about_research.html">科研机构</a></li>
     						<li><a target="_blank" href="http://www.lmlq.com/HumanResource/">人力资源</a></li>
@@ -151,11 +152,23 @@
 					<span class="active">企业殊荣</span>
 					<span>产品证书</span>
 				</div>
+				<script type="text/javascript">
+				$(function() {
+					$(".tab").on('click', 'span', function() {
+						if (!$(this).hasClass('active')) {
+							$(this).siblings().removeClass('active');
+							$(this).addClass('active');
+							if ($(this).index()==1) {$(".comp").hide();$(".prod").show()}
+							if ($(this).index()==0) {$(".prod").hide();$(".comp").show()};
+						};
+					});
+				})
+				</script>
 				<div class="comp line-big">
 					<ul class="list-unstyle">
 						<li class="xl6 xm4">
 							<div class="pos_a">
-								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
+								<img src="./img/about/honor/honor_s1.jpg" data-src="./img/about/honor/honor_bs1.jpg">
 								<div class="pos_b">
 									<i class="icon icon-search-plus" aria-hidden="true"></i>
 									<h4>中国砂石协会常务理事单位</h4>
@@ -164,44 +177,180 @@
 						</li>
 						<li class="xl6 xm4">
 							<div class="pos_a">
-								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
+								<img src="./img/about/honor/honor_s2.jpg" data-src="./img/about/honor/honor_bs2.jpg">
 								<div class="pos_b">
 									<i class="icon icon-search-plus" aria-hidden="true"></i>
-									<h4>中国砂石协会常务理事单位</h4>
+									<h4>河南省装备制造业协会理事单位</h4>
 								</div>
 							</div>
 						</li>
 						<li class="xl6 xm4">
 							<div class="pos_a">
-								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
+								<img src="./img/about/honor/honor_s3.jpg" data-src="./img/about/honor/honor_bs3.jpg">
 								<div class="pos_b">
 									<i class="icon icon-search-plus" aria-hidden="true"></i>
-									<h4>中国砂石协会常务理事单位</h4>
+									<h4>中国名企</h4>
 								</div>
 							</div>
 						</li>
 						<li class="xl6 xm4">
 							<div class="pos_a">
-								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
+								<img src="./img/about/honor/honor_s4.jpg" data-src="./img/about/honor/honor_bs4.jpg">
 								<div class="pos_b">
 									<i class="icon icon-search-plus" aria-hidden="true"></i>
-									<h4>中国砂石协会常务理事单位</h4>
+									<h4>国家高新技术企业</h4>
 								</div>
 							</div>
 						</li>
 						<li class="xl6 xm4">
 							<div class="pos_a">
-								<img src="./img/about/honor_s1.jpg" data-src="./tmp/news1.jpg">
+								<img src="./img/about/honor/honor_s5.jpg" data-src="./img/about/honor/honor_bs5.jpg">
 								<div class="pos_b">
 									<i class="icon icon-search-plus" aria-hidden="true"></i>
-									<h4>中国砂石协会常务理事单位</h4>
+									<h4>企业信用评价AAA级信用企业</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_s6.jpg" data-src="./img/about/honor/honor_bs6.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>砂石行业骨干企业</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_s7.jpg" data-src="./img/about/honor/honor_bs7.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>中国破碎机行业品牌TOP10企业</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_s8.jpg" data-src="./img/about/honor/honor_bs8.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>优秀创新企业</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_s9.jpg" data-src="./img/about/honor/honor_bs9.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>十大诚信经营典范单位</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_s10.jpg" data-src="./img/about/honor/honor_bs10.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>电子商务重点示范企业</h4>
 								</div>
 							</div>
 						</li>
 					</ul>
 				</div>
-				<div class="prod">
-					
+				<div class="prod  line-big">
+					<ul class="list-unstyle">
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p1.jpg" data-src="./img/about/honor/honor_bp1.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>ISO9001:2008质量管理体系认证</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p2.jpg" data-src="./img/about/honor/honor_bp2.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>欧盟CE认证</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p3.jpg" data-src="./img/about/honor/honor_bp3.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>俄罗斯GOST认证</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p4.jpg" data-src="./img/about/honor/honor_bp4.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>中国工业环保产品认证证书</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p5.jpg" data-src="./img/about/honor/honor_bp5.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>HPT省科学技术成果奖</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p6.jpg" data-src="./img/about/honor/honor_bp6.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>MTW中国机械工业科学技术奖</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p7.jpg" data-src="./img/about/honor/honor_bp7.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>MTW工业节能产品</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p8.jpg" data-src="./img/about/honor/honor_bp8.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>VSI5X省科学技术成果奖</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p9.jpg" data-src="./img/about/honor/honor_bp9.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>LUM省科学技术成果奖</h4>
+								</div>
+							</div>
+						</li>
+						<li class="xl6 xm4">
+							<div class="pos_a">
+								<img src="./img/about/honor/honor_p10.jpg" data-src="./img/about/honor/honor_bp10.jpg">
+								<div class="pos_b">
+									<i class="icon icon-search-plus" aria-hidden="true"></i>
+									<h4>轮胎式移动站省科学技术成果奖</h4>
+								</div>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</div>
 			<div class="dialog-mask"></div>
